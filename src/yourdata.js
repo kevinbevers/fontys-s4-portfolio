@@ -20,18 +20,18 @@ export default {
   name: "Kevin Bevers",
   headerTagline: [
     //Line 1 For Header
-    "Welcome to my Semester 4",
+    "Software engineer",
     //Line 2 For Header
-    "Creative technology",
+    "Web developer",
     //Line 3 For Header
-    "Progress Portfolio",
+    "Techie",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-
+    "Graduated Application and Media Developer, with experience in Industrial Engineering, IOT, Databases, Web and Software.",
+    headerParagraph2: "Currently studying Sofwtare engineering at Fontys University of Applied Sciences.",
   //Contact Email
-  contactEmail: "kevin.bevers@student.fontys.nl",
+  contactEmail: "kevin.bevers@hotmail.com",
 
   // End Header Details -----------------------
 
