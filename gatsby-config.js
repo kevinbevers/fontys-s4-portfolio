@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/fontys-s4-portfolio",
   siteMetadata: {
     title: ``,
     description: `Portfolio S4 Progress of Kevin Bevers.`,

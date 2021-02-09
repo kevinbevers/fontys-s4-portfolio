@@ -3,7 +3,7 @@
   "private": true,
   "homepage": "https://kevinbevers.github.io/fontys-s4-portfolio",
   "description": "Portfolio for Fontys S4 Creative Technology Specialisation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Kevin Bevers",
   "dependencies": {
     "gatsby": "^2.26.1",
@@ -33,8 +33,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
