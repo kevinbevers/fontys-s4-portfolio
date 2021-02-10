@@ -26,5 +26,34 @@
     .active {
       color: black;
     }
+    a {
+      text-decoration: none;
+      padding: 10px;
+      font-family: "Open Sans";
+      opacity: 0.6;
+      transition: all 0.2s ease-in-out;
+      font-size: 12px;
+      background-color: transparent;
+      outline: none;
+      border: 0px;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+      *:visited {
+        color: black;
+      }
+    }
   }
 }
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+

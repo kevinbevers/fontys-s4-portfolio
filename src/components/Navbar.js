@@ -17,6 +17,7 @@ const Navbar = () => {
             <button onClick={() => scrollTo("#work")}>Work</button>
             <button onClick={() => scrollTo("#about")}>About</button>
             <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <a href="/s4timeline" className="button">Fontys S4 timeline</a>
           </div>
         </div>
       </div>

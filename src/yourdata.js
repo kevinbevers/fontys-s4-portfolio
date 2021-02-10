@@ -1,16 +1,17 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import htmlIcon from "./images/html.svg";
+import cssIcon from "./images/css.svg";
+import reactIcon from "./images/react.svg";
+import jsIcon from "./images/javascript.svg";
+import designIcon from "./images/design.svg";
+import codeIcon from "./images/code.svg";
+import chipIcon from "./images/microchip-solid.svg";
+import industryIcon from "./images/industry-solid.svg";
+import databaseIcon from "./images/database-solid.svg";
 
 // Social Icon
-import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import githubIcon from "./images/github.svg";
+import instagramIcon from "./images/instagram.svg";
 import ProfielFoto from "./images/ProfielFoto.png";
 
 export default {
@@ -121,11 +122,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "I'm a tech enthousiast that was born on 22 februari 1999, I love exploring the possiblities that technology brings. And i'm fully invested in my contribution to this tech focussed future.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Born and raised in a small town in the Netherlands, close to the tech savy city of Eindhoven. Early on in my live I started wondering how things work the way they work. Following this trail of exploration I developed an interest in computers. This interest brought me to programming and the unlimited possibilities it provides.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Next to exploring tech I love exploring the world. On of the biggest thing on my to-do list is doing a trip around the world.",
   aboutImage: ProfielFoto,
 
   //   End About Section ---------------------
@@ -145,31 +146,49 @@ export default {
       id: 2,
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Just like HTML, using CSS well is one of the most important skills to possess in web development, over my years of building multiple web applications I can most certainly say I have the magic of CSS at my fingertips",
     },
     {
       id: 3,
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I'm profficient in vanilla JS, having used it for multiple small projects for more than 3 years.",
     },
     {
       id: 4,
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have recently developed quite the knowledge in React, During my usage of React I have also used popular React frameworks Like NextJS and Gatsby. Possesing the knowledge and ability to use these makes me a well rounded web developer",
     },
     {
       id: 5,
-      img: designIcon,
+      img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "One of my biggest weapons in my programming arsenal is C#. I have now used C# and it's multiple applications for more than 5 years and have build a multidude of projects with it, including but not limited to. A containerized microservices enviroment being used as a Web api. Web application with Asp.net Core And Razor. Desktop applications with Windows forms and Xaml. And mobile applications with Xamarin.",
     },
     {
       id: 6,
-      img: codeIcon,
+      img: chipIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have worked with multiple micro controllers. Including the Raspberry PI and the Arduino. I have built multiple projects with Arduino and created some tinkers with the Raspberry PI. I'm not an advanced power user of the Raspberry PI but i'm certainly no stranger to it's technology and how to apply it.",
+    },
+    {
+      id: 7,
+      img: databaseIcon,
+      para:
+        "During development I have encountered the usage of databases multiple times. I have completed orcale database exams and I'm experienced with the usage of MySQL, MSSQL and MongoDB",
+    },
+    {
+      id: 8,
+      img: industryIcon,
+      para:
+        "I have experience with multiple types of PLC's and programmed a large industry machine and multiple smaller projects. these where built with Siemens and Mitsubishi PLC's.",
+    },
+    {
+      id: 9,
+      img: designIcon,
+      para:
+        "During my development years I have had the need to edit and design quite a few logo's and have made multiple trailers. These have mostly been made in the Adobe suite.",
     },
   ],
 
