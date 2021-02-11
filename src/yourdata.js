@@ -140,7 +140,7 @@ export default {
       id: 1,
       img: htmlIcon,
       para:
-        "After multiple years building more websites than you can count or your hands, it's time to say that HTML and HTML5 is definitely in my skillset",
+        "After multiple years building more websites than you can count on your hands, it's time to say that HTML and HTML5 is definitely in my skillset",
     },
     {
       id: 2,

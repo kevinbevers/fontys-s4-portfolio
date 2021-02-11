@@ -3,8 +3,9 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain} from "react-icons/fa";
 import "../styles/timeline.css";
+import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
 
 const Promotion = () => {
   return (
@@ -78,6 +79,47 @@ const Promotion = () => {
     Explored the possibilities with technology that currently exist and what will be possible in the future.<br />
     Also had some time to work on the portfolio a bit more.
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="11 Feb 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBrain />}
+  >
+    <h3 className="vertical-timeline-element-title">Brainstorm Session project</h3>
+    <h4 className="vertical-timeline-element-subtitle">What is vision?</h4>
+    <p>
+    Brainstorm session, What if I can, …. (change)(Humanity + technology),  Decide what to focus on.
+    <br /> <br />
+    Google voice restaurant reservation with allergies.(Google voice and app, would need an API / server) <br />
+    What if I, Change the way people with allergies go out for dining. <br />
+    What means change the way, People with allergies get dishes that look and feel and taste great and are not just a main dish with the allergy taken out.
+    <br /> <br />
+    Smart basement(Storage cabinet)(Camera recognition and app) <br />
+    What if I, Change the way people keep up with the things they have available in the house? Make it easier for people to know What to get from the grocery store. <br />
+    <br />
+    Helped some classmates with thinking of project visions.
+    <br /> <br />
+    Feedback for my ideas:
+    Too good to go idea, less waste for restaurants.
+    Think about naming the assistant.
+    <br /> <br />
+    What is vision? Workshop.<br />
+      A vision is someone’s idea of the future and someone’s look at the future.
+      <br /><br />
+Personal opinion of tech visionars top 3<br />
+1. Steve Jobs<br />
+2. Bill Gates<br />
+3. Elon Musk<br />
+<br />
+A vision has to do with direction, meaning and purpose.
+<br />
+Created a vision board.
+    </p>
+    <img src={visionboard1} height="300" width="300"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>

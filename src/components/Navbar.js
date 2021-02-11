@@ -17,7 +17,8 @@ const Navbar = () => {
             <button onClick={() => scrollTo("#work")}>Work</button>
             <button onClick={() => scrollTo("#about")}>About</button>
             <button onClick={() => scrollTo("#contact")}>Contact</button>
-            <a href="/s4timeline" className="button">Fontys S4 timeline</a>
+            {/* Referal for the github.io page */}
+            <a href="fontys-s4-portfolio/s4timeline" className="button">Fontys S4 timeline</a>
           </div>
         </div>
       </div>
