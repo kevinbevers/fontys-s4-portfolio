@@ -6,6 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain} from "react-icons/fa";
 import "../styles/timeline.css";
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
+import visionboard2 from "../images/CreativeTechGeneralVision_KevinBevers.jpg";
 
 const Promotion = () => {
   return (
@@ -117,9 +118,10 @@ Personal opinion of tech visionars top 3<br />
 <br />
 A vision has to do with direction, meaning and purpose.
 <br />
-Created a vision board.
+Created 2 vision boards. One for my projects and one for my general vision for creative technology.
     </p>
     <img src={visionboard1} height="300" width="300"></img>
+    <img src={visionboard2} height="300" width="300"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
