@@ -8,6 +8,7 @@ import "../styles/timeline.css";
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
 import visionboard2 from "../images/CreativeTechGeneralVision_KevinBevers.jpg";
 import mandodata from "../images/Mando_S1_DataPlotDesign.png";
+import workshopresult from "../images/workshopResult.jpg";
 
 const Promotion = () => {
   return (
@@ -146,6 +147,7 @@ Created 2 vision boards. One for my projects and one for my general vision for c
   Created a cool visual representation of my visualized data of all text mando spoke during S1 sorted by chapter
     </p>
     <img src={mandodata} height={300}></img>
+    <img src={workshopresult} height={300}></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
