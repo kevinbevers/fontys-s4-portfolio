@@ -7,6 +7,7 @@ import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain} from "react
 import "../styles/timeline.css";
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
 import visionboard2 from "../images/CreativeTechGeneralVision_KevinBevers.jpg";
+import mandodata from "../images/Mando_S1_DataPlotDesign.png";
 
 const Promotion = () => {
   return (
@@ -122,6 +123,29 @@ Created 2 vision boards. One for my projects and one for my general vision for c
     </p>
     <img src={visionboard1} height="300" width="300"></img>
     <img src={visionboard2} height="300" width="300"></img>
+  </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="12 Feb 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaWpexplorer />}
+  >
+    <h3 className="vertical-timeline-element-title">Avicii Project Workshop.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Visualize text emotion into data plots and graphs. And then make these into a creative design.</h4>
+    <p>
+    Introduction to the Avicii Project, data visualization of songs, movies, series, or any other text and the emotion it has.
+    Make it into data visualization and print it on a t shirt.
+    <br /><br />
+    I’m gonna do the mandolorian
+    <br />
+    A lot of text to copy and filter out line of mando.
+    <br />
+  Created a cool visual representation of my visualized data of all text mando spoke during S1 sorted by chapter
+    </p>
+    <img src={mandodata} height={300}></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
