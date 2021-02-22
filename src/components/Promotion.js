@@ -3,12 +3,14 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper} from "react-icons/fa";
 import "../styles/timeline.css";
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
 import visionboard2 from "../images/CreativeTechGeneralVision_KevinBevers.jpg";
 import mandodata from "../images/Mando_S1_DataPlotDesign.png";
 import workshopresult from "../images/workshopResult.jpg";
+import takeawayfromarticle from "../images/takeawayfromarticle.png";
+
 
 const Promotion = () => {
   return (
@@ -148,6 +150,42 @@ Created 2 vision boards. One for my projects and one for my general vision for c
     </p>
     <img src={mandodata} height={300}></img>
     <img src={workshopresult} height={300}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="22 Feb 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaNewspaper />}
+  >
+    <h3 className="vertical-timeline-element-title">Deciding what individual project to take on and defining it.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop creating a creative technology manifest.</h4>
+    <p>
+    Introduction start about Individual project by teacher.<br /> 
+      - Dive into the subject of your choice<br /> 
+      - Describe your project<br /> 
+      - Make a planning<br /> 
+      - Start exploring<br /> 
+      - Describe your needs.<br /> 
+    Brainstorming in breakout rooms with pep<br /> 
+    <br /> 
+    <br /> 
+    Workshop creating a Creative technology manifest. <br /> 
+    A manifest is a short list of rules / visions of a way of being. For example the 10 rules of Christianity in the Bible. <br /> 
+    We read an article about creative technology and split up into groups to create our own versions of a creative technology manifesto.  <br /> 
+    We combined the manifest lines from each group into 1 for the whole class. <br /> 
+     Tomorrow we are going to visualize it / make a cool looking version of this manifest. <br /> 
+    <br />  <br /> 
+- A creative technologist <br /> 
+~ “it’s someone who is a bit creative, has some good experience with technology and bridges the gap between the two” <br /> 
+<br />
+An interesting note I agreed with ~ “Final polish is important because if a person didn’t care enough to fix those small things, why should a user respect the experience?”
+<br /> <br /> 
+The article we read was really interesting <a href="https://medium.com/@laserpilot/advice-for-creative-technologists-21f3f220b2">Article link</a>
+    </p>
+    <img src={takeawayfromarticle} height="500"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
