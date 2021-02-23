@@ -201,11 +201,11 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     <h3 className="vertical-timeline-element-title">Visualized our class Manifest and Visualized 1 manifest line in specific.</h3>
     <h4 className="vertical-timeline-element-subtitle">Researched and closed in on my individual project idea an automated dart scoring system</h4>
     <p>
-    Visualized the class manifest and visualized 1 specific manifest together with a classmate in a break out room.
-    <a href="https://kevinbevers.github.io/fontys-s4-manifest-console-webapp/">Manifest visualization</a>
+    Visualized the class manifest and visualized 1 specific manifest together with a classmate in a break out room.<br />
+    <a href="https://kevinbevers.github.io/fontys-s4-manifest-console-webapp/">Manifest visualization</a><br />
     <a href="https://kevinbevers.github.io/fontys-s4-manifest-console-webapp/manifest3">Manifest visualization (specific line)</a>
     </p>
-    <img src={manifestvisi} height={300}></img>
+    <img src={manifestvisi} height={200}></img>
     <p>
     Researching the possibilities I have to realize my individual project, an automated dart counting system.<br />
     Found a few interesting projects I could work with. I think of doing a 2 camera approach, since a 4 camera approach would be way more expensive. There is also a possibility to do a 1 camera approach, but I think a 2 camera triangulation method is a very good middle ground.<br />
