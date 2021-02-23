@@ -10,6 +10,8 @@ import visionboard2 from "../images/CreativeTechGeneralVision_KevinBevers.jpg";
 import mandodata from "../images/Mando_S1_DataPlotDesign.png";
 import workshopresult from "../images/workshopResult.jpg";
 import takeawayfromarticle from "../images/takeawayfromarticle.png";
+import manifestvisi from "../images/Manifest3VisualizeWithEdin.png";
+import teacherdartdrawing from "../images/teacherdartdrawing.png";
 
 
 const Promotion = () => {
@@ -186,6 +188,32 @@ An interesting note I agreed with ~ “Final polish is important because if a pe
 The article we read was really interesting <a href="https://medium.com/@laserpilot/advice-for-creative-technologists-21f3f220b2">Article link</a>
     </p>
     <img src={takeawayfromarticle} height="500"></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="23 Feb 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaWpexplorer />}
+  >
+    <h3 className="vertical-timeline-element-title">Visualized our class Manifest and Visualized 1 manifest line in specific.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Researched and closed in on my individual project idea an automated dart scoring system</h4>
+    <p>
+    Visualized the class manifest and visualized 1 specific manifest together with a classmate in a break out room.
+    <a href="https://kevinbevers.github.io/fontys-s4-manifest-console-webapp/">Manifest visualization</a>
+    <a href="https://kevinbevers.github.io/fontys-s4-manifest-console-webapp/manifest3">Manifest visualization (specific line)</a>
+    </p>
+    <img src={manifestvisi} height={300}></img>
+    <p>
+    Researching the possibilities I have to realize my individual project, an automated dart counting system.<br />
+    Found a few interesting projects I could work with. I think of doing a 2 camera approach, since a 4 camera approach would be way more expensive. There is also a possibility to do a 1 camera approach, but I think a 2 camera triangulation method is a very good middle ground.<br />
+    <br />
+    Talked with the teacher about the possible options on detecting darts since I couldn’t come to a conclusion on how to go about it.<br />
+    The result is this drawing by teacher, explaining the triangulation of the dart position based on board size.<br />
+    </p>
+    <img src={teacherdartdrawing} height={300}></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
