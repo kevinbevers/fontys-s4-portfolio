@@ -3,8 +3,9 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools} from "react-icons/fa";
 import "../styles/timeline.css";
+// Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
 import visionboard2 from "../images/CreativeTechGeneralVision_KevinBevers.jpg";
 import mandodata from "../images/Mando_S1_DataPlotDesign.png";
@@ -12,6 +13,8 @@ import workshopresult from "../images/workshopResult.jpg";
 import takeawayfromarticle from "../images/takeawayfromarticle.png";
 import manifestvisi from "../images/Manifest3VisualizeWithEdin.png";
 import teacherdartdrawing from "../images/teacherdartdrawing.png";
+import workflow from "../images/workflow.png";
+import dartboard from "../images/dartboard.jpg";
 
 
 const Promotion = () => {
@@ -214,6 +217,41 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     The result is this drawing by teacher, explaining the triangulation of the dart position based on board size.<br />
     </p>
     <img src={teacherdartdrawing} height={300}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="24 Feb 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaTools />}
+  >
+    <h3 className="vertical-timeline-element-title">Workshop how to learn new tech.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Doing some more research and writing down things that need to be done so that this project can succeed.</h4>
+    <p>
+    Workshop how to learn new tech.<br />
+    Learned something about ubiquitous technology (IOT devices). Tech that’s all around us and not really noticable.<br />
+    Why do tech research? Substantiate choices. Be able to show your efforts to make your story believable and trustworthy.<br />
+    Start formulating a question for your research.<br />
+￼   <br />
+    Also had my semester coach introduction with Geert Jan van Ouwendorp.<br />
+    </p>
+    <img src={workflow} height="200"></img>
+    <p>
+    Doing some more research and writing down things that need to be done so that this project can succeed
+    ￼<br />
+    I’m thinking of doing the detection with triangulation, 1 camera sees the whole board from the top another sees the whole board from the side.<br />
+    Then I can point a coordinate point on a x y axis. And use this <a href="https://codegolf.stackexchange.com/questions/167440/score-a-single-dart">Example</a> to know what the thrown score is.<br />
+    The dartboard has a diameter of 34cm.<br />
+    <br />
+    Parts to make<br />
+    - dart index on x - y axis<br />
+    - Calculate dart score based on index<br />
+    - Game of darts code<br />
+    - Control the game of darts.<br />
+    </p>
+    <img src={dartboard} height="200"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
