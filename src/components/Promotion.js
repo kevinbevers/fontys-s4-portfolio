@@ -253,6 +253,66 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     </p>
     <img src={dartboard} height="200"></img>
   </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="25 Feb 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaWpexplorer />}
+  >
+    <h3 className="vertical-timeline-element-title">Workshop fire starters, what are your CoreStrengths? And how to unlock them.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Group meeting about progress and continuing work on individual project</h4>
+    <p>
+    I Read the document and I think the 2 that fit with me are:<br />
+    <br />
+      Dream:<br />
+      Dream stands for creativity, following your own path, openness, curiosity, liveliness and likes to make jokes. For you, the world is more than an average voyage of discovery. It is possible that you love travel above average and your curiosity will take you further. <br />
+      Some examples of DREAM CoreStrengths: exceptional / mindful / searching / spontaneous <br />
+      <br />
+      Do:<br />
+      Do stands for grounded, down-to-earth, building and arranging things, be thorough, look realistically at the world. You. Live quite effectively and can inspire others with that. It’s very nice to leave things up to you, you make sure it’s all right. You have a lot of growth capacity.<br /> 
+      Some examples of DO CoreStrengths: Useful / effective / realistic / solid / accurate <br />
+      <br />
+      How do these CoreStrengths already manifest, in your personal and school life?<br />
+      Dream:<br />
+      - I always have a lot of ideas and opinions on things and always see multiple ways of how something could be done.<br />
+      - I like to make jokes, it takes away the edge from a lot of conversations.<br />
+      - I like traveling in a unique way. I’m not always 100% enthusiastic in the moment but after the fact I always feel very satisfied after a travel journey.<br />
+      <br />
+      Do:<br />
+      - I also have a very black and white vision of things and not a lot of grey in between. This fit’s with the Do strength since it makes me effective in making decisions.<br />
+      - I always feel responsible to do my part of the job and will often take over parts that are left on the table, to make sure things get done.<br />
+      <br />
+      Had some tips and tricks on how to enable creative thinking. Listening to Music to enable not thinking inside the box but outside it.<br />
+      that to truely think of something new, you need to step out of the standard brainstorming meeting feel, and get inspired. otherwise you just think of things you are already familiar with<br />
+      <br />
+      In the afternoon we had a Communal startup, talking about what we already did and what we took away from it.<br />
+      We also talked about what intrigues us, and how we apply this in our individual project.<br />
+      Worked on individual project. Looked more into the inner workings of how to make my project reality. <br />
+      I made some drawings of a coordinate grid and how to calculate the score of a coordinate. <br />
+      Next up is finding out how to recognize a dart and point it’s location.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="26 Feb 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaTools />}
+  >
+    <h3 className="vertical-timeline-element-title">A nice morning walk.</h3>
+    <h4 className="vertical-timeline-element-subtitle">First semester coach meeting and continuing work on the individual project</h4>
+    <p>
+    Teacher couldn’t give the planned small meeting / workshop cause of migraine. After this is slept out a little and then went for a pretty long walk.<br />
+    During the walk I put everything I want to do for the project on a mental checklist.<br />
+    <br />
+    First individual semester coach meeting with Geert Jan.<br />
+    </p>
+  </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
     </div>
