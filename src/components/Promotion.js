@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -15,6 +15,7 @@ import manifestvisi from "../images/Manifest3VisualizeWithEdin.png";
 import teacherdartdrawing from "../images/teacherdartdrawing.png";
 import workflow from "../images/workflow.png";
 import dartboard from "../images/dartboard.jpg";
+import prototypeworkshop from "../images/prototypeworkshop.png";
 
 
 const Promotion = () => {
@@ -312,6 +313,25 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     <br />
     First individual semester coach meeting with Geert Jan.<br />
     </p>
+  </VerticalTimelineElement>
+  
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="1 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaSwatchbook />}
+  >
+    <h3 className="vertical-timeline-element-title">Workshop about prototyping</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    don’t get attached to your prototypes, make it quick and simple.<br />
+    Multiple types of prototypes, some for design some for functionality.<br />
+    We made a small paper prototype as practice / example.<br />
+    Don’t overthink your prototype.<br />
+    </p>
+    <img src={prototypeworkshop} height="200"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
