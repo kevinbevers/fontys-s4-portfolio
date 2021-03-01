@@ -332,6 +332,11 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     Don’t overthink your prototype.<br />
     </p>
     <img src={prototypeworkshop} height="200"></img>
+    <p>
+    We had a “field trip” in the afternoon, It was a guest lecture about hacking and cyber security. <br />
+    After that we had a meeting with Our teacher talking and listing our favorite teach channels / news. <br />
+    Each of us wrote down the semester gains and pains thus far.
+    </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
