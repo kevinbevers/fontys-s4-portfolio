@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -336,6 +336,23 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     We had a “field trip” in the afternoon, It was a guest lecture about hacking and cyber security. <br />
     After that we had a meeting with Our teacher talking and listing our favorite teach channels / news. <br />
     Each of us wrote down the semester gains and pains thus far.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="2 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaPencilRuler />}
+  >
+    <h3 className="vertical-timeline-element-title">A nice morning walk.</h3>
+    <h4 className="vertical-timeline-element-subtitle">First semester coach meeting and continuing work on the individual project</h4>
+    <p>
+    During the morning I wrote down my findings of all my research and thinking about how do the project.<br />
+    Not everything is in there but the main idea is solidified in this document.<br /><br />
+    In the afternoon I looked into the Github repo’s of already existing projects more and tinkered a bit with python to get an understanding of the written code.<br />
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
