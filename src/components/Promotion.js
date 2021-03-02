@@ -16,6 +16,7 @@ import teacherdartdrawing from "../images/teacherdartdrawing.png";
 import workflow from "../images/workflow.png";
 import dartboard from "../images/dartboard.jpg";
 import prototypeworkshop from "../images/prototypeworkshop.png";
+import dartexample from "../images/DartExample.png";
 
 
 const Promotion = () => {
@@ -353,7 +354,10 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     During the morning I wrote down my findings of all my research and thinking about how do the project.<br />
     Not everything is in there but the main idea is solidified in this document.<br /><br />
     In the afternoon I looked into the Github repo’s of already existing projects more and tinkered a bit with python to get an understanding of the written code.<br />
+    I also made a logo for my project, because I thought it would add a nice touch.<br />
+    I also realised I'm a bit stuck on how to start the programming for the project. I contacted my semester coach to help me to find out where to start with programming
     </p>
+    <img src={dartexample} height="200"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
