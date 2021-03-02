@@ -355,7 +355,8 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     Not everything is in there but the main idea is solidified in this document.<br /><br />
     In the afternoon I looked into the Github repo’s of already existing projects more and tinkered a bit with python to get an understanding of the written code.<br />
     I also made a logo for my project, because I thought it would add a nice touch.<br />
-    I also realised I'm a bit stuck on how to start the programming for the project. I contacted my semester coach to help me to find out where to start with programming
+    I also realised I'm a bit stuck on how to start the programming for the project. <br />
+    I talked with The feedback teacher for this day, He gave me a clear goal and helped to find out what the steps are I need to take to work towards a prototype.
     </p>
     <img src={dartexample} height="200"></img>
   </VerticalTimelineElement>
