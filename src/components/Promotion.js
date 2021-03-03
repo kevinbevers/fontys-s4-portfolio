@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -263,7 +263,7 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
     date="25 Feb 2021"
     iconStyle={{ background: 'rgb(211,211,211)' }}
-    icon={<FaWpexplorer />}
+    icon={<FaFile />}
   >
     <h3 className="vertical-timeline-element-title">Workshop fire starters, what are your CoreStrengths? And how to unlock them.</h3>
     <h4 className="vertical-timeline-element-subtitle">Group meeting about progress and continuing work on individual project</h4>
@@ -305,7 +305,7 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
     date="26 Feb 2021"
     iconStyle={{ background: 'rgb(220,220,220)' }}
-    icon={<FaTools />}
+    icon={<FaWalking />}
   >
     <h3 className="vertical-timeline-element-title">A nice morning walk.</h3>
     <h4 className="vertical-timeline-element-subtitle">First semester coach meeting and continuing work on the individual project</h4>
@@ -349,8 +349,8 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaPencilRuler />}
   >
-    <h3 className="vertical-timeline-element-title">A nice morning walk.</h3>
-    <h4 className="vertical-timeline-element-subtitle">First semester coach meeting and continuing work on the individual project</h4>
+    <h3 className="vertical-timeline-element-title">Made a report of my research findings, to show what my vision is of the project.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Talked with the teacher on how to go about building the prototype.</h4>
     <p>
     During the morning I wrote down my findings of all my research and thinking about how do the project.<br />
     Not everything is in there but the main idea is solidified in this document.<br /><br />
@@ -368,7 +368,7 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
     date="3 March 2021"
     iconStyle={{ background: 'rgb(211,211,211)' }}
-    icon={<FaSwatchbook />}
+    icon={<FaBullseye />}
   >
     <h3 className="vertical-timeline-element-title">Workshop Creative Coding</h3>
     <h4 className="vertical-timeline-element-subtitle">Setting up my proof of concept</h4>
@@ -379,7 +379,7 @@ The meeting explained in detail what is expected of us and how we should go abou
 The expectation is a technical prototype (proof of concept) a little piece about my creative tech vision and something that tells the story of how my project came to be.<br />
 I made a setup to test the things I’m trying to built and this setup is probably what I’m going to use for my proof of concept.<br />
     </p>
-    <img src={pocsetup} height="200"></img>
+    <img src={pocsetup} height="300"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
