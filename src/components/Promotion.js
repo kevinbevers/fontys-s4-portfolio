@@ -17,6 +17,7 @@ import workflow from "../images/workflow.png";
 import dartboard from "../images/dartboard.jpg";
 import prototypeworkshop from "../images/prototypeworkshop.png";
 import dartexample from "../images/DartExample.png";
+import pocsetup from "../images/poc_setup.png";
 
 
 const Promotion = () => {
@@ -359,6 +360,26 @@ The article we read was really interesting <a href="https://medium.com/@laserpil
     I talked with The feedback teacher for this day, He gave me a clear goal and helped to find out what the steps are I need to take to work towards a prototype.
     </p>
     <img src={dartexample} height="200"></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="3 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaSwatchbook />}
+  >
+    <h3 className="vertical-timeline-element-title">Workshop Creative Coding</h3>
+    <h4 className="vertical-timeline-element-subtitle">Setting up my proof of concept</h4>
+    <p>
+Had a headache this morning because of sleep deprivation. Asked the teacher to record the teams meeting so I can look back at it in the afternoon.<br /><br />
+In the afternoon I worked on setting up my prototype while listening to the teams meeting.<br />
+The meeting explained in detail what is expected of us and how we should go about fulfilling those expectations.<br />
+The expectation is a technical prototype (proof of concept) a little piece about my creative tech vision and something that tells the story of how my project came to be.<br />
+I made a setup to test the things I’m trying to built and this setup is probably what I’m going to use for my proof of concept.<br />
+    </p>
+    <img src={pocsetup} height="200"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
