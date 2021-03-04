@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -380,6 +380,33 @@ The expectation is a technical prototype (proof of concept) a little piece about
 I made a setup to test the things I’m trying to built and this setup is probably what I’m going to use for my proof of concept.<br />
     </p>
     <img src={pocsetup} height="300"></img>
+  </VerticalTimelineElement>
+
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="4 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaLaptopCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Concept questions answered</h3>
+    <h4 className="vertical-timeline-element-subtitle">Continued tinkering with python</h4>
+    <p>
+    Still don’t really feel well, there was a workshop about connecting that I didn’t attend but I have read the assignment and created my own concept text.<br />
+    <br />
+    <b>What is the impact of your project? Can you enlarge it?</b><br />
+    The impact my project gives is a more enjoyable dart experience for everyone that doesn’t play darts on a fully concentrated level. It’s a tedious job to keep track of score and removes a bit of the pleasure in just throwing. My project takes away that annoyance and improves the overall fun of the game for most players.
+    I can enlarge the impact by making my project readily available and easy to install for other people to use. One of the easiest ways to do this is to make it open source and modular.<br />
+    <br />
+    <b>What does your process look like(creative + research based)?</b><br />
+    I always start with forming an idea that provides a solution to something I experienced. After I have a general idea of how it should all be done, I will research how to exactly achieve the project outcome I want and then I’ll start building the project.<br />
+    <br /><br />
+    Further tinkering with the Dartboard camera setup I made in my room. I have had some problems with python using the wrong version and this caused some library issues.<br />
+    I finally found the issue that has been annoying me for the last 2 days. I changed the python version that get’s used by macOS 2.7 to 3.9. Now I can use everything decently and hopefully start making some progress.<br />
+    Since I’m not home tomorrow and don’t have access to the camera’s and feel like doing something a little more comfortable I’m planning on creating a Web API in python that would already do the game of darts.<br />
+    </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
