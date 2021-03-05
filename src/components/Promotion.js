@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -382,7 +382,6 @@ I made a setup to test the things I’m trying to built and this setup is probab
     <img src={pocsetup} height="300"></img>
   </VerticalTimelineElement>
 
-
   <VerticalTimelineElement
     className="vertical-timeline-element"
     contentStyle={{ background: 'rgb(220,220,220)' }}
@@ -406,6 +405,29 @@ I made a setup to test the things I’m trying to built and this setup is probab
     Further tinkering with the Dartboard camera setup I made in my room. I have had some problems with python using the wrong version and this caused some library issues.<br />
     I finally found the issue that has been annoying me for the last 2 days. I changed the python version that get’s used by macOS 2.7 to 3.9. Now I can use everything decently and hopefully start making some progress.<br />
     Since I’m not home tomorrow and don’t have access to the camera’s and feel like doing something a little more comfortable I’m planning on creating a Web API in python that would already do the game of darts.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="5 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaWindowRestore />}
+  >
+    <h3 className="vertical-timeline-element-title">Working on individual project</h3>
+    <h4 className="vertical-timeline-element-subtitle">Quick meeting about potential client project</h4>
+    <p>
+    Today I’m going to build a part of the dart game itself so when I make the auto score detection with the cameras I can play a game of darts by feeding it the scores.<br />
+    We had a small briefing about a potential project in cooperation with ACI = academy for creative industries.<br />
+    The project has something to do with Volumetric video.<br />
+    <br />
+    Found this as a base to use for my web app scoring system <a href="https://github.com/ajaichemmanam/react-flask-socketio">https://github.com/ajaichemmanam/react-flask-socketio</a><br />
+    <br />
+    Started development on the web server / Web API that I want to use as the scoring module. It will have endpoints to call for score updates that the board code can call whenever a score get’s thrown.<br />
+    <br />
+    I also feel that I have been slacking a little bit this week. So I will work a bit more on my individual project Sunday afternoon and early evening.<br />
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
