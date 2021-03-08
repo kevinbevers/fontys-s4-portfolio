@@ -18,6 +18,7 @@ import dartboard from "../images/dartboard.jpg";
 import prototypeworkshop from "../images/prototypeworkshop.png";
 import dartexample from "../images/DartExample.png";
 import pocsetup from "../images/poc_setup.png";
+import scoreboarddesign1 from "../images/scoreboarddesign1.png";
 
 
 const Promotion = () => {
@@ -429,6 +430,27 @@ I made a setup to test the things I’m trying to built and this setup is probab
     <br />
     I also feel that I have been slacking a little bit this week. So I will work a bit more on my individual project Sunday afternoon and early evening.<br />
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="8 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaLaptopCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Group meeting about what is expect for delivery</h3>
+    <h4 className="vertical-timeline-element-subtitle">Working on the scoreboard web app</h4>
+    <p>
+      In the morning we had a meeting about how to deliver everything this week and some of the learning outcomes got explained to us all.<br />
+      I asked a question about how to deliver documents and source code made. It is preferable if there are links in my portfolio to the documents.<br />
+      <br />
+      The whole afternoon i have been busy with sockets for my front-end scoreboard. Learned how to integrate the sockets,<br />
+      Created a design draft of the front-end scoreboard.(adobe xD)<br />
+      Still having problems concentrating on this project, I think it’s because the technical challenge is just out of my reach in this short time frame.<br />
+    </p>
+    <img src={scoreboarddesign1} height="200"></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
