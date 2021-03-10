@@ -14,6 +14,9 @@ import githubIcon from "./images/github.svg";
 import instagramIcon from "./images/instagram.svg";
 import ProfielFoto from "./images/ProfielFoto.png";
 
+// Project images
+import project1 from "./images/IP_Dart_Logo.png";
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -31,7 +34,8 @@ export default {
   //   Header Paragraph
   headerParagraph:
     "Graduated Application and Media Developer, with experience in Industrial Engineering, IOT, Databases, Web and Software.",
-    headerParagraph2: "Currently studying Sofwtare engineering at Fontys University of Applied Sciences.",
+  headerParagraph2: "Currently studying Sofwtare engineering at Fontys University of Applied Sciences.",
+  headerParagraph3: "Interested in how I go about making a project. click on one of the project to see the different phases.",
   //Contact Email
   contactEmail: "kevin.bevers@hotmail.com",
 
@@ -41,14 +45,13 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "S4 Individual project. BullsI", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "An automatic dartboard scoring system. This project was conceptualized and prototyped for the 3 week period of the fontys S4 Individual project.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: project1,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "/fontys-s4-portfolio/fontys-s4-ip",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅

@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -19,6 +19,7 @@ import prototypeworkshop from "../images/prototypeworkshop.png";
 import dartexample from "../images/DartExample.png";
 import pocsetup from "../images/poc_setup.png";
 import scoreboarddesign1 from "../images/scoreboarddesign1.png";
+import project1 from "../images/project1.png";
 
 
 const Promotion = () => {
@@ -451,6 +452,44 @@ I made a setup to test the things I’m trying to built and this setup is probab
       Still having problems concentrating on this project, I think it’s because the technical challenge is just out of my reach in this short time frame.<br />
     </p>
     <img src={scoreboarddesign1} height="200"></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="9 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaNetworkWired />}
+  >
+    <h3 className="vertical-timeline-element-title">Working on individual project</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop about communication between devices</h4>
+    <p>
+    In the morning I worked on programming the web server, I decided to not use python for the back-end and just use nodeJS to be the Web API since I have more experience with node.<br /><br />
+    In the afternoon we had a workshop about connections between devices.<br /> 
+    This workshop also had a part where we needed to make our own connection for this I decided to use MQTT, I installed the Matt server / broker on the PI and connected to it via the Arduino with an Mqtt client. <br />
+    To showcase this I also made use of my old smarhome project that can send updates to the Mqtt broker and receive updates from subscribed topics.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="10 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaStream />}
+  >
+    <h3 className="vertical-timeline-element-title">Group meeting about what is expect for delivery</h3>
+    <h4 className="vertical-timeline-element-subtitle">Working on the scoreboard web app</h4>
+    <p>
+    In the morning I got some feedback on my portfolio. The feedback I got was directed at what to describe and how I should go about showcasing my project phases.<br />
+    One of the criticisms, was my timeline having a little too much text to read. I will try and shorten this in a little bit. But I also think a full blown timeline with all things described in it adds a little unique flair.<br />
+    <br />
+    In the afternoon I worked on my portfolio project and cleaning it up and adding some of the stuff I got feedback on.<br />
+    I’m making a separate page just describing my individual project phases, structured mostly the same as the timeline just with a different twist and some more images to make it easier on the eyes.<br />
+    </p>
+    <img src={project1} height={250}></img>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
