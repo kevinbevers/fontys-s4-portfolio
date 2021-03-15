@@ -525,7 +525,19 @@ I made a setup to test the things I’m trying to built and this setup is probab
     We talked about the ideas we both had and formed some ideas for the project demo video / presentation.<br />
     One of the ideas was the smart storage system.<br />
     <br />
-    In the afternoon another member joined our group.<br/>
+    In the afternoon another member joined our group.In the afternoon another member joined our group.<br />
+    Geert Jan didn’t really like our idea so he gave us the assignment to each on our own find 20 inspirational tech ideas.<br />
+     And list these to evaluate them tomorrow morning.<br />
+      - https://www.youtube.com/watch?v=WzXhCCCcbTQ<br />
+      - https://dynacrop.space/en/<br />
+      - https://www.youtube.com/watch?v=vN4U5FqrOdQ<br />
+      - https://www.youtube.com/watch?v=eK4WHG7kZ6w Cloud lamp<br />
+      - https://twitter.com/Katlysss/status/1367840056837341190?s=20<br />
+      - https://www.youtube.com/watch?v=dzifIAhTTHA Finger bot, Smart plant pot, Smelly alarm clock<br />
+      - https://www.youtube.com/watch?v=cINzqxm2-xA Countertop dryer<br />
+      - https://remarkable.com/<br />
+      - https://www.daimler.com/innovation/autonomous-driving/future-bus.html<br />
+      - https://www.youtube.com/watch?v=FU2QpBOjyWs Smart shower<br />
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
