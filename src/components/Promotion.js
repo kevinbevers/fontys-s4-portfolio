@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -490,6 +490,43 @@ I made a setup to test the things I’m trying to built and this setup is probab
     I’m making a separate page just describing my individual project phases, structured mostly the same as the timeline just with a different twist and some more images to make it easier on the eyes.<br />
     </p>
     <img src={project1} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="12 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaComment />}
+  >
+    <h3 className="vertical-timeline-element-title">Presentation individual project results</h3>
+    <h4 className="vertical-timeline-element-subtitle">and a free afternoon.</h4>
+    <p>
+    Got feedback for my individual project presentation, it was positive.<br />
+    The teachers liked the way how I compared the way of working during the individual project with earlier project experiences I had. <br />
+    I got some very useful feedback about the prototypes and trying to already to be too technically deep, and that I should make a prototype very very simple and start more at the basis. For my next project I will and try apply this. <br />
+    Overall I learned a good bit about concepting and how to properly think about an idea before executing upon it.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="10 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaStream />}
+  >
+    <h3 className="vertical-timeline-element-title">Assigned a duo project partner</h3>
+    <h4 className="vertical-timeline-element-subtitle">Brainstorming and forming an idea for the duo project</h4>
+    <p>
+    Got assigned in DUO’s for the upcoming duo project.<br /> 
+    We talked about the ideas we both had and formed some ideas for the project demo video / presentation.<br />
+    One of the ideas was the smart storage system.<br />
+    <br />
+    In the afternoon another member joined our group.<br/>
+    </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
       </div>
