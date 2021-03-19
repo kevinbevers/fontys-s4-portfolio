@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -20,6 +20,9 @@ import dartexample from "../images/DartExample.png";
 import pocsetup from "../images/poc_setup.png";
 import scoreboarddesign1 from "../images/scoreboarddesign1.png";
 import project1 from "../images/project1.png";
+import skills from "../images/5skills.png";
+import vote from "../images/vote.jpg";
+import questions from "../images/Questions.png";
 
 
 const Promotion = () => {
@@ -496,26 +499,52 @@ I made a setup to test the things I’m trying to built and this setup is probab
     className="vertical-timeline-element"
     contentStyle={{ background: 'rgb(211,211,211)' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
-    date="12 March 2021"
+    date="11 March 2021"
     iconStyle={{ background: 'rgb(211,211,211)' }}
-    icon={<FaComment />}
+    icon={<FaFilePowerpoint />}
   >
-    <h3 className="vertical-timeline-element-title">Presentation individual project results</h3>
-    <h4 className="vertical-timeline-element-subtitle">and a free afternoon.</h4>
+    <h3 className="vertical-timeline-element-title">Working on individual project</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop about communication between devices</h4>
     <p>
-    Got feedback for my individual project presentation, it was positive.<br />
-    The teachers liked the way how I compared the way of working during the individual project with earlier project experiences I had. <br />
-    I got some very useful feedback about the prototypes and trying to already to be too technically deep, and that I should make a prototype very very simple and start more at the basis. For my next project I will and try apply this. <br />
-    Overall I learned a good bit about concepting and how to properly think about an idea before executing upon it.
+    In the morning I worked on programming the web server, I decided to not use python for the back-end and just use nodeJS to be the Web API since I have more experience with node.<br /><br />
+    In the afternoon we had a workshop about connections between devices.<br /> 
+    This workshop also had a part where we needed to make our own connection for this I decided to use MQTT, I installed the Matt server / broker on the PI and connected to it via the Arduino with an Mqtt client. <br />
+    To showcase this I also made use of my old smarhome project that can send updates to the Mqtt broker and receive updates from subscribed topics.<br />
     </p>
+    <img src={skills} height={200}></img>
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
     className="vertical-timeline-element"
     contentStyle={{ background: 'rgb(220,220,220)' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
-    date="10 March 2021"
+    date="12 March 2021"
     iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaComment />}
+  >
+    <h3 className="vertical-timeline-element-title">Workshop creative process</h3>
+    <h4 className="vertical-timeline-element-subtitle">and making a powerpoint presentation</h4>
+    <p>
+    Nothing done during the morning, I don’t feel that well.<br />
+    <br />
+    In the afternoon had a Workshop creative thinking part 2.<br />
+    ￼<br />
+    The workshop introduced us to a few different techniques to start a creative thinking process.
+    <br />
+    I looked a bit more into the camera detection, but I decided that I should make sure I have a presentation for tomorrow.<br />
+    https://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/.<br />
+    <br />
+    I’m satisfied with the presentation I made. In the presentation I made clear what the things are that I learned during the 3 week period. <br />
+    I described my failures and that in the end I wished that I had a better product to show for it. I’m not happy with the proof of concepts I made.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="15 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
     icon={<FaStream />}
   >
     <h3 className="vertical-timeline-element-title">Assigned a duo project partner</h3>
@@ -528,18 +557,104 @@ I made a setup to test the things I’m trying to built and this setup is probab
     In the afternoon another member joined our group.In the afternoon another member joined our group.<br />
     Geert Jan didn’t really like our idea so he gave us the assignment to each on our own find 20 inspirational tech ideas.<br />
      And list these to evaluate them tomorrow morning.<br />
-      - https://www.youtube.com/watch?v=WzXhCCCcbTQ<br />
-      - https://dynacrop.space/en/<br />
-      - https://www.youtube.com/watch?v=vN4U5FqrOdQ<br />
-      - https://www.youtube.com/watch?v=eK4WHG7kZ6w Cloud lamp<br />
-      - https://twitter.com/Katlysss/status/1367840056837341190?s=20<br />
-      - https://www.youtube.com/watch?v=dzifIAhTTHA Finger bot, Smart plant pot, Smelly alarm clock<br />
-      - https://www.youtube.com/watch?v=cINzqxm2-xA Countertop dryer<br />
-      - https://remarkable.com/<br />
-      - https://www.daimler.com/innovation/autonomous-driving/future-bus.html<br />
-      - https://www.youtube.com/watch?v=FU2QpBOjyWs Smart shower<br />
+      - <a href="https://www.youtube.com/watch?v=WzXhCCCcbTQ">Modular tracking framework</a><br />
+      - <a href="https://dynacrop.space/en/">smart farming</a><br />
+      - <a href="https://www.youtube.com/watch?v=vN4U5FqrOdQ">Iphone reveal</a><br />
+      - <a href="https://www.youtube.com/watch?v=eK4WHG7kZ6w">Cloud lamp and some other ideas</a><br />
+      - <a href="https://twitter.com/Katlysss/status/1367840056837341190?s=20">AR flyers and magazines</a><br />
+      - <a href="https://www.youtube.com/watch?v=dzifIAhTTHA">Finger bot, Smart plant pot, Smelly alarm clock</a><br />
+      - <a href="https://www.youtube.com/watch?v=cINzqxm2-xA">Countertop dryer</a> <br />
+      - <a href="https://remarkable.com/">Tablet to take notes like old school paper but nicer.</a><br />
+      - <a href="https://www.daimler.com/innovation/autonomous-driving/future-bus.html">Auto driving bus</a><br />
+      - <a href="https://www.youtube.com/watch?v=FU2QpBOjyWs">Smart shower</a> <br />
     </p>
   </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="16 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBrain />}
+  >
+    <h3 className="vertical-timeline-element-title">Brainstorming for trio project</h3>
+    <h4 className="vertical-timeline-element-subtitle">& feedback from Geert Jan</h4>
+    <p>
+    We put all our inspirational ideas together and came up with a few potential projects we could make for the upcoming project.<br />
+    One of our best ideas is probably a cloud that showcases the upcoming weather but can also show the mood of a given dataset.<br />
+    For example a message group.<br />
+    <br />
+    After feedback from Geert Jan on the ideas we decided to go with the cloud, we called it WünderWolk and made a small project plan and formed questions for our research document.<br />
+    There was some discussion between me and Bart about the research document because we both have different views of how a research document should look and be structured.<br /> 
+    In the end we figured it out.<br />
+    </p>
+    <img src={skills} height={200}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="17 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaSwatchbook />}
+  >
+    <h3 className="vertical-timeline-element-title">Guest lecture from an interesting company</h3>
+    <h4 className="vertical-timeline-element-subtitle">Go out and vote!</h4>
+    <p>
+    Did some documentation work before we had a guest lecture from greenhouse company.<br />
+    It was a really interesting lecture from a potential internship company, the presentation was mainly about marketing with IT and gave really nice insights.<br />
+    <br />
+    I went out voting for the national elections and afterwards visited my grandma in Belgium who had a hip surgery.<br />
+    Yes it was a safe visit with masks and some distance.😷<br />
+    </p>
+    <img src={vote} height={400}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="18 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBrain />}
+  >
+    <h3 className="vertical-timeline-element-title"></h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+      In the morning we had a small workshop about the impact of projects you make. One of the questions asked is in what way does your project create impact. I think our WünderWolk project impact people with Freedom & Connection. <br />
+      Because our project gives people a choice which gives them freedom and makes an emotional impact / connection via the social media / group chat feel visualization.<br />
+      <br />
+      Workshop how to create a scope of focus?<br />
+      We had a little interaction and where given a small assignment to go more in-depth on our project and create a scope of focus. And write down the steps we made to scope our topic. <br />
+      We did this together with the whole class as it appeared to be rather difficult to just get started with for most people in the class.<br />
+      We got some more info about questions that can answer your compass.<br />
+      ￼<br />
+      We had some questions about our personal look on things.<br />
+      <br />
+      As a group we made a powerpoint for the presentation tomorrow.
+    </p>
+    <img src={questions} height={200}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="19 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaWpexplorer />}
+  >
+    <h3 className="vertical-timeline-element-title">Present our idea</h3>
+    <h4 className="vertical-timeline-element-subtitle">research and workout things we need to know.</h4>
+    <p>
+    Project presentation, we got some nice feedback on our project, the teachers told us it was a cool idea but that during development we should talk with people what they would want the lamp to do to make it more magical.<br />
+    Each of us got a specific task to complete today.<br />
+    I’m going to find out what platforms we support by looking into available api’s for the data.<br />
+    </p>
+  </VerticalTimelineElement>
+
 </VerticalTimeline>
       </div>
     </div>
