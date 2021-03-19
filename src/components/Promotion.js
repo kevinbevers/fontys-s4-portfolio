@@ -649,7 +649,7 @@ I made a setup to test the things I’m trying to built and this setup is probab
     <h3 className="vertical-timeline-element-title">Present our idea</h3>
     <h4 className="vertical-timeline-element-subtitle">research and workout things we need to know.</h4>
     <p>
-    Project presentation, we got some nice feedback on our project, the teachers told us it was a cool idea but that during development we should talk with people what they would want the lamp to do to make it more magical.<br />
+    Project presentation, we got some nice feedback on our project, the teachers told us it was a cool idea but that during development we should talk with people what they would want the lamp to do to make it more magical.<br /><br />
     Each of us got a specific task to complete today.<br />
     I’m going to find out what platforms we support by looking into available api’s for the data.<br />
     </p>
