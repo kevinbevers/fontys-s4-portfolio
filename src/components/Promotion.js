@@ -23,6 +23,7 @@ import project1 from "../images/project1.png";
 import skills from "../images/5skills.png";
 import vote from "../images/vote.jpg";
 import questions from "../images/Questions.png";
+import icdp from "../images/ICDP.png";
 
 
 const Promotion = () => {
@@ -620,8 +621,8 @@ I made a setup to test the things I’m trying to built and this setup is probab
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaBrain />}
   >
-    <h3 className="vertical-timeline-element-title"></h3>
-    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <h3 className="vertical-timeline-element-title">Workshop about impact</h3>
+    <h4 className="vertical-timeline-element-subtitle">Creating a powerpoint</h4>
     <p>
       In the morning we had a small workshop about the impact of projects you make. One of the questions asked is in what way does your project create impact. I think our WünderWolk project impact people with Freedom & Connection. <br />
       Because our project gives people a choice which gives them freedom and makes an emotional impact / connection via the social media / group chat feel visualization.<br />
@@ -652,6 +653,44 @@ I made a setup to test the things I’m trying to built and this setup is probab
     Project presentation, we got some nice feedback on our project, the teachers told us it was a cool idea but that during development we should talk with people what they would want the lamp to do to make it more magical.<br /><br />
     Each of us got a specific task to complete today.<br />
     I’m going to find out what platforms we support by looking into available api’s for the data.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="18 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaPencilRuler />}
+  >
+    <h3 className="vertical-timeline-element-title">Research and planning</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    During the morning we had a talk about our project planning with Mijke about what to do when.<br />
+    It’s a quick meeting but it set us on the right track on what to do when.<br />
+    We updated our trello board to have sprints. <br />
+    After that we reviewed and tidied up our research document. That will guide us during the designing and prototyping of the product.<br />
+    <br />
+    We also had some quick fun with Wombo.ai.<br />
+    <br />
+    In the afternoon we had a workshop / meeting about the creative process from Geert Jan
+    </p>
+    <img src={icdp} height={200}></img>
+    <p>
+    It was a very interesting workshop and I really liked the timeline / chart that was designed by Geert Jan.<br />
+    I will try and get us to follow this timeline in our trio project.<br />
+    All the different phases got explained and also that it isn’t just a straight through timeline each phase could loop back into itself and you could even have a loop around the whole process.<br />
+    <br />
+    A few tips to also look into:<br />
+    - https://designthinking.ideo.com/<br />
+    - https://www.designkit.org/methods (Tip!)<br />
+    - http://ictresearchmethods.nl/Methods<br />
+    - https://cmdmethods.nl/<br />
+    - https://toolkits.dss.cloud/design/ (Tip!)<br />
+    - https://research.utwente.nl/en/publications/a-design-process-for-creative-technology<br />
+    <br />
+    As a group we also did some research into our concept video and got a nice collection of ideas going.
     </p>
   </VerticalTimelineElement>
 
