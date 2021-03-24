@@ -24,6 +24,7 @@ import skills from "../images/5skills.png";
 import vote from "../images/vote.jpg";
 import questions from "../images/Questions.png";
 import icdp from "../images/ICDP.png";
+import appmock from "../images/AppMock.png";
 
 
 const Promotion = () => {
@@ -692,6 +693,43 @@ I made a setup to test the things I’m trying to built and this setup is probab
     <br />
     As a group we also did some research into our concept video and got a nice collection of ideas going.
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="23 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaBrain />}
+  >
+    <h3 className="vertical-timeline-element-title">Sick day 🤒</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    Took the day off. Terrible headache.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="24 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaSwatchbook />}
+  >
+    <h3 className="vertical-timeline-element-title">Making an app mock-up</h3>
+    <h4 className="vertical-timeline-element-subtitle">and reviewing / talking about the concepts</h4>
+    <p>
+    During the morning we did a small scrum meeting together and talked about our tasks we need to complete before the end of the week and how to achieve this. <br />
+    I started making our App mock-up.<br />
+    <br />
+    In the afternoon we each worked on our task in a call together. I finished version 1 of the App mock-up.<br />
+    ￼<br />
+    We also noticed we forgot to do the daily retrospect and summary, so we added those retroactively to the teams channel.<br />
+    I also finished up my assignments given by Eva. <br />
+    </p>
+    <img src={appmock} height={200}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
