@@ -25,6 +25,7 @@ import vote from "../images/vote.jpg";
 import questions from "../images/Questions.png";
 import icdp from "../images/ICDP.png";
 import appmock from "../images/AppMock.png";
+import ethic from "../images/ethic.png";
 
 
 const Promotion = () => {
@@ -730,6 +731,51 @@ I made a setup to test the things I’m trying to built and this setup is probab
     I also finished up my assignments given by Eva. <br />
     </p>
     <img src={appmock} height={200}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="25 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaNewspaper />}
+  >
+    <h3 className="vertical-timeline-element-title">Working on the trio project</h3>
+    <h4 className="vertical-timeline-element-subtitle">and a workshop about ethics</h4>
+    <p>
+      During the morning we finished our research document and tight up other loose ends.<br />
+      After that we had feedback from Judith about our project, she isn’t convinced and Is missing some magic.<br />
+      <br />
+      In the afternoon we had a Workshop about Ethical thinking.<br />
+      ￼<br />
+      It was about how tech affects the world. Decision making.
+    </p>
+    <img src={ethic} height={200}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="26 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaSwatchbook />}
+  >
+    <h3 className="vertical-timeline-element-title">Making an app mock-up</h3>
+    <h4 className="vertical-timeline-element-subtitle">and reviewing / talking about the concepts</h4>
+    <p>
+      During the morning we worked on our final small tasks from this sprint week, and we had a very positive feedback meeting with Mijke.<br />
+      She gave us the greet idea to connect mood and weather types to make it more visually appealing / special. The cloud is like a pet in your house.<br />
+        It’s something that just happens naturally in the living room. Like a dog getting excited when everyone in the room get’s excited as well. <br />
+        This is a really nice comparison by Bart and Mijke.<br />
+        <br />
+        Time left make a small document / visualization of happenings and the weather / emotion that fits with it.<br />
+        <br />
+        In the afternoon we started to make the product reality. By writing some first code.<br />
+        Meeting with Geert Jan about demotivation of the semester.<br />
+        I personally installed flutter and setup the git repo on my MacBook.<br />
+    </p>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
