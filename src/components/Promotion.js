@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -26,6 +26,7 @@ import questions from "../images/Questions.png";
 import icdp from "../images/ICDP.png";
 import appmock from "../images/AppMock.png";
 import ethic from "../images/ethic.png";
+import swapmodes from "../images/SwapModes.png";
 
 
 const Promotion = () => {
@@ -776,6 +777,26 @@ I made a setup to test the things I’m trying to built and this setup is probab
         Meeting with Geert Jan about demotivation of the semester.<br />
         I personally installed flutter and setup the git repo on my MacBook.<br />
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="29 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaMobile />}
+  >
+    <h3 className="vertical-timeline-element-title">Feedback and starting to learn flutter</h3>
+    <h4 className="vertical-timeline-element-subtitle">Making beginnings on the flutter app</h4>
+    <p>
+    During the morning we had feedback from Mijke on our survey, we should hold the survey under our target audience, but for this project it isn’t relevant to research into a target audience and then target those for the survey.<br />
+    Continued working on the flutter app. Mainly front-end focussed.<br />
+    <br />
+    In the afternoon I spent more time figuring out how flutter exactly works. Hope to have a working swipe mechanism to switch between modes working. And the basic layout.<br />
+    At the end of the day I the basic layout we want and can swipe left or right to switch mode.
+    </p>
+    <img src={swapmodes} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
