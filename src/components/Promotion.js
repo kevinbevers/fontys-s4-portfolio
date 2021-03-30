@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -27,6 +27,7 @@ import icdp from "../images/ICDP.png";
 import appmock from "../images/AppMock.png";
 import ethic from "../images/ethic.png";
 import swapmodes from "../images/SwapModes.png";
+import classdiagram from "../images/ClassDiagram.png";
 
 
 const Promotion = () => {
@@ -797,6 +798,29 @@ I made a setup to test the things I’m trying to built and this setup is probab
     At the end of the day I the basic layout we want and can swipe left or right to switch mode.
     </p>
     <img src={swapmodes} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="30 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBook />}
+  >
+    <h3 className="vertical-timeline-element-title">Class Diagram, Learning flutter</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop about architecture.</h4>
+    <p>
+      In the morning I overslept, but made a class diagram for the app. Although it’s a small one because the app doesn’t have that much special things to handle.<br />
+      <br />
+      During the afternoon I continued work on the app front-end, mainly focussed on research into flutter.<br />
+      Workshop about architecture? What is it about and how to use it. <br />
+      The workshop introduced us to C4 models.<br /> 
+      But I have already previously used this extensively in my software semester.<br />
+      The workshop was later on the day, that was nice since it didn't interrupt our work for the trio project.<br />
+      The workshop was also a bit repeating since I already have experience with C4 models but it was a nice refresher none-the-less.<br />
+    </p>
+    <img src={classdiagram} height={200}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
