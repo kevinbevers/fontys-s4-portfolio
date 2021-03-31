@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -28,6 +28,9 @@ import appmock from "../images/AppMock.png";
 import ethic from "../images/ethic.png";
 import swapmodes from "../images/SwapModes.png";
 import classdiagram from "../images/ClassDiagram.png";
+import sysdiagram from "../images/SysDiagram.png";
+import compdiagram from "../images/CompDiagram.png";
+import icdpoutcome from "../images/ICDP_Outcomes.jpg";
 
 
 const Promotion = () => {
@@ -764,8 +767,8 @@ I made a setup to test the things I’m trying to built and this setup is probab
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaSwatchbook />}
   >
-    <h3 className="vertical-timeline-element-title">Making an app mock-up</h3>
-    <h4 className="vertical-timeline-element-subtitle">and reviewing / talking about the concepts</h4>
+    <h3 className="vertical-timeline-element-title">Feedback & setting up shop</h3>
+    <h4 className="vertical-timeline-element-subtitle">Making a survey</h4>
     <p>
       During the morning we worked on our final small tasks from this sprint week, and we had a very positive feedback meeting with Mijke.<br />
       She gave us the greet idea to connect mood and weather types to make it more visually appealing / special. The cloud is like a pet in your house.<br />
@@ -821,6 +824,34 @@ I made a setup to test the things I’m trying to built and this setup is probab
       The workshop was also a bit repeating since I already have experience with C4 models but it was a nice refresher none-the-less.<br />
     </p>
     <img src={classdiagram} height={200}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="31 March 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaBriefcase />}
+  >
+    <h3 className="vertical-timeline-element-title">Explaination on learning outcomes and creating architecture</h3>
+    <h4 className="vertical-timeline-element-subtitle">Feedback and learning</h4>
+    <p>
+    We began the morning with a meeting with Geert Jan explaining all learning outcomes in detail. <br />
+    Very helpful and gives good insight in what is expected from us by the end of the semester.<br />
+    We where given an assignment to map the learning outcomes in Geert Jans nicely designed ICDP flow.<br />
+    <img src={icdpoutcome} height={250}></img>
+    <br />
+    I worked on our groups architecture in structurizr. <br />
+    <img src={sysdiagram} height={250}></img>
+    <img src={compdiagram} height={250}></img>
+    <br />
+    We also got some feedback from Geert Jan this morning. The feedback was pointed at our survey being a bit flat. But after some talks about the results and how to use them it was deemed a pretty fruitful survey. <br />
+    Geert Jan gave us some great ideas and sketched the possibilities our product has. All in all it was a very good feedback session for us.<br />
+    <br />
+    In the afternoon I first went for a walk with the dog to unload a bit from the busy morning.<br />
+    After that I received some feedback on my component diagram. I tweaked my diagram and continued the rest of the afternoon focussing on learning flutter.<br />
+    </p>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
