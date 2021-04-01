@@ -854,6 +854,25 @@ I made a setup to test the things I’m trying to built and this setup is probab
     </p>
   </VerticalTimelineElement>
 
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="1 March 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBook />}
+  >
+    <h3 className="vertical-timeline-element-title">Research MQTT client in flutter</h3>
+    <h4 className="vertical-timeline-element-subtitle">Created slider & got my PS5!!</h4>
+    <p>
+    During the morning I researched into MQTT client in flutter and looked into the slider widget and how it functions and how you can visualize it the way you want it to visualize.<br />
+    <br />
+    In the afternoon I continued my research into the Mqtt client and had a show & grow  meeting with the class. <br />
+    Where I told something about my way of working and exploring with flutter.<br />
+    After that meeting was finished. I booted up my new PS5.<br />
+    </p>
+  </VerticalTimelineElement>
+
 </VerticalTimeline>
       </div>
     </div>
