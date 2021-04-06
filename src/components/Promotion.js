@@ -858,7 +858,7 @@ I made a setup to test the things I’m trying to built and this setup is probab
     className="vertical-timeline-element"
     contentStyle={{ background: 'rgb(220,220,220)' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
-    date="1 March 2021"
+    date="1 April 2021"
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaBook />}
   >
