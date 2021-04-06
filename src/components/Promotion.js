@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -31,6 +31,7 @@ import classdiagram from "../images/ClassDiagram.png";
 import sysdiagram from "../images/SysDiagram.png";
 import compdiagram from "../images/CompDiagram.png";
 import icdpoutcome from "../images/ICDP_Outcomes.jpg";
+import changing from "../images/changing.png";
 
 
 const Promotion = () => {
@@ -871,6 +872,31 @@ I made a setup to test the things I’m trying to built and this setup is probab
     Where I told something about my way of working and exploring with flutter.<br />
     After that meeting was finished. I booted up my new PS5.<br />
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="6 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaWifi />}
+  >
+    <h3 className="vertical-timeline-element-title">Implementing mqtt into the flutter app</h3>
+    <h4 className="vertical-timeline-element-subtitle">Defining the protocol</h4>
+    <p>
+      Had another slow going morning, I did a workout because I want to get back into a god rhythm so I did a workout after I walked the dog. <br />
+      Then I watched some video’s about programming.<br />
+      <br />
+      During the afternoon I worked on the daily Tasks I set for myself today. <br />
+      Implementing MQTT into the flutter app. And writing a protocol for us to use a a group.<br /> 
+      First up I looked into the MQTT implementation and added it to my code base. <br />
+      It all looked okay but still a bit messy. After that I looked into the protocol to use and I have a good idea on how to do it based on the things I found online.<br /> 
+      But I still have to convince my team members it’s the right approach. <br />
+      After that I tested my MQTT with an online broker and realized the code I implemented was semi deprecated and I switched to a newer version that also looks way cleaner and maintainable than the version I implemented earlier. <br />
+      All in all a sluggish day but stuff got done anyways.<br />
+    </p>
+    <img src={changing} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
