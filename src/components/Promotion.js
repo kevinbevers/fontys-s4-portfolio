@@ -32,6 +32,7 @@ import sysdiagram from "../images/SysDiagram.png";
 import compdiagram from "../images/CompDiagram.png";
 import icdpoutcome from "../images/ICDP_Outcomes.jpg";
 import changing from "../images/changing.png";
+import managetopics from "../images/ManageTopics.png";
 
 
 const Promotion = () => {
@@ -897,6 +898,50 @@ I made a setup to test the things I’m trying to built and this setup is probab
       All in all a sluggish day but stuff got done anyways.<br />
     </p>
     <img src={changing} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="7 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaMobile />}
+  >
+    <h3 className="vertical-timeline-element-title">Finishing the App UI</h3>
+    <h4 className="vertical-timeline-element-subtitle">Taking a look for my Internship period.</h4>
+    <p>
+      In the morning we as a group discussed what we where going to do for the day and I Decided to set goals to finish the full UI.<br />
+      One of the first things I wanted to find out was how to make my sliders and config menu look like the one that is native on IOS. <br />
+      I spend a good bit of time during the morning finding a nice library with good documentation so I could learn from it.<br />
+      <br />
+      In the afternoon I finished the complete UI except for the managing of subjects.<br />
+      I spend a good bit of time to look into the Internship canvas and I even solicited for 1.<br />
+      For the internship I also talked with my girlfriends father who is a partner in education and told me what is expected from students and what students can expect from the companies during an internship.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="8 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaComment />}
+  >
+    <h3 className="vertical-timeline-element-title">Added final important part for UI</h3>
+    <h4 className="vertical-timeline-element-subtitle">Feedback on group project and sememester coach meeting</h4>
+    <p>
+    In the morning I started working out how to go to a new page with a button and navigate back. And then on that page load in a list. <br />
+    During this morning I also had a meeting with my semester coach about Geert Jan about this semester and how I was doing. <br />
+    It was a nice meeting and it gave me some good positive vibes.<br />
+    <br />
+    After that in the afternoon I looked into dynamically adding and deleting items from that list and even added a swipe gesture to show a delete button that deletes a item from the list.<br />
+     We also had a very good feedback session with Eva. <br />
+     She told us our documentation was very professional. <br />
+     The only thing it was missing was some research and description of the impact our product could have on humanity.<br />
+    </p>
+    <img src={managetopics} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
