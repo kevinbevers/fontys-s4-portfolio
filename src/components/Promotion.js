@@ -33,6 +33,8 @@ import compdiagram from "../images/CompDiagram.png";
 import icdpoutcome from "../images/ICDP_Outcomes.jpg";
 import changing from "../images/changing.png";
 import managetopics from "../images/ManageTopics.png";
+import emotionaldesign from "../images/emotionaldesign.png";
+import assignmentemotion from "../images/emotionaldesign.png";
 
 
 const Promotion = () => {
@@ -942,6 +944,30 @@ I made a setup to test the things I’m trying to built and this setup is probab
      The only thing it was missing was some research and description of the impact our product could have on humanity.<br />
     </p>
     <img src={managetopics} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="9 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaStream />}
+  >
+    <h3 className="vertical-timeline-element-title"></h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    During the morning we had a guest lecture about patents, copyright and trademarks. <br />
+    For me it was a really valuable and interesting lecture, since I really like the details and nuances that go into law.<br /> 
+    Learned a few nice things about how copyright and trademarks work. And got to ask some nice questions.<br />
+<br />
+    Workshop about visual prototyping. With some assignments. 
+    Learned some interesting stuff again. I knew what an MVP and MLP encapsulate but I did learn more about how to structure a MLP compared to a MVP.<br />
+    We got given an assignment to complete to learn to associate the different types of design to things that already exist. I had a lot of fun working out this assignment.<br />
+    </p>
+    <img src={emotionaldesign} height={250}></img>
+    <img src={assignmentemotion} height={250}></img>
+    <a href="/fontys-s4-portfolio/docs/Assignment_visualprototyping.pdf" target="_blank">Click to open assignment document in a new tab</a>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
