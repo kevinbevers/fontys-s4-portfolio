@@ -35,6 +35,7 @@ import changing from "../images/changing.png";
 import managetopics from "../images/ManageTopics.png";
 import emotionaldesign from "../images/emotionaldesign.png";
 import assignmentemotion from "../images/emotionaldesign.png";
+import dialogflow from "../images/DialogFlow.png";
 
 
 const Promotion = () => {
@@ -968,6 +969,28 @@ I made a setup to test the things I’m trying to built and this setup is probab
     <img src={emotionaldesign} height={250}></img>
     <img src={assignmentemotion} height={250}></img>
     <a href="/fontys-s4-portfolio/docs/Assignment_visualprototyping.pdf" target="_blank">Click to open assignment document in a new tab</a>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="12 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaComment />}
+  >
+    <h3 className="vertical-timeline-element-title"></h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+      During the morning I worked on implementing a dialog box to add a new topic to your list. <br />
+      I hoped to also implemented some MQTT calls but I didn’t have the time yet, since most stuff during this project appears to take longer than expected before hand.<br />
+    <br />
+      Workshop about dialog flow from Geert Jan<br />
+    </p>
+    <img src={dialogflow} height={250}></img>
+    <p>
+      For the rest of the afternoon I worked on the app communication and finished up the ability to add topics.<br />
+    </p>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
