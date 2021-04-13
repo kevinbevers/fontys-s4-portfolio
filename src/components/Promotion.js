@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -977,19 +977,39 @@ I made a setup to test the things I’m trying to built and this setup is probab
     contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
     date="12 April 2021"
     iconStyle={{ background: 'rgb(211,211,211)' }}
-    icon={<FaComment />}
+    icon={<FaCode />}
   >
-    <h3 className="vertical-timeline-element-title"></h3>
-    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <h3 className="vertical-timeline-element-title">Completed the subject(topic) management functionality</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop about dialog flow</h4>
     <p>
       During the morning I worked on implementing a dialog box to add a new topic to your list. <br />
       I hoped to also implemented some MQTT calls but I didn’t have the time yet, since most stuff during this project appears to take longer than expected before hand.<br />
     <br />
-      Workshop about dialog flow from Geert Jan<br />
+      Workshop about dialog flow from Geert Jan. It's an interesting tool I have used before in S1 and it was nice getting a better look at it with some guided examples.<br />
     </p>
     <img src={dialogflow} height={250}></img>
     <p>
       For the rest of the afternoon I worked on the app communication and finished up the ability to add topics.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="14 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title"></h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    During the morning I worked on updating / recreating my Curriculum Vitae for my internship period. And I added some MQTT calls in the mobile app.<br />
+    During my lunch break I got a call about a possible internship, I’m hope I will get invited for an interview. <br />
+    <br />
+    In the afternoon we had a workshop about testing. During the workshop we got some explanation about the o so familiar use cases.<br />
+     And created them for our trio project. <br />
+     After the workshop was over Me and Bart worked together of getting the kinks out of the protocol and fully implemented the required publish messages to send settings updates to the RPI.
     </p>
   </VerticalTimelineElement>
 
