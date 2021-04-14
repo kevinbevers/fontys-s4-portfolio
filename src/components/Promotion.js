@@ -36,6 +36,9 @@ import managetopics from "../images/ManageTopics.png";
 import emotionaldesign from "../images/emotionaldesign.png";
 import assignmentemotion from "../images/emotionaldesign.png";
 import dialogflow from "../images/DialogFlow.png";
+import PPrehearsel from "../images/PPrehearsel.png";
+import testingtypes from "../images/testingtypes.png";
+import projectimpact from "../images/projectimpact.png";
 
 
 const Promotion = () => {
@@ -997,12 +1000,12 @@ I made a setup to test the things I’m trying to built and this setup is probab
     className="vertical-timeline-element"
     contentStyle={{ background: 'rgb(220,220,220)' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
-    date="14 April 2021"
+    date="13 April 2021"
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaCode />}
   >
-    <h3 className="vertical-timeline-element-title"></h3>
-    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <h3 className="vertical-timeline-element-title">Finishing app connection with the RPI</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop testing</h4>
     <p>
     During the morning I worked on updating / recreating my Curriculum Vitae for my internship period. And I added some MQTT calls in the mobile app.<br />
     During my lunch break I got a call about a possible internship, I’m hope I will get invited for an interview. <br />
@@ -1011,6 +1014,27 @@ I made a setup to test the things I’m trying to built and this setup is probab
      And created them for our trio project. <br />
      After the workshop was over Me and Bart worked together of getting the kinks out of the protocol and fully implemented the required publish messages to send settings updates to the RPI.
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="14 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaFilePowerpoint />}
+  >
+    <h3 className="vertical-timeline-element-title">Thinking about project impact</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop about testing</h4>
+    <p>
+      In the morning we had feedback on our progress from Geert Jan and he approved of our idea to test the sentiment value this weekend with a small script during the Grand Prix. 
+      We also wrote up our project impact and updated our vision.
+    </p>
+    <img src={projectimpact} height={250}></img>
+    <p>During the afternoon there was a workshop about testing from Erik.</p>
+    <img src={testingtypes} height={250}></img>
+      <p>After the workshop I created the powerpoint presentation for our Rehearsel tomorrow.</p>
+      <img src={PPrehearsel} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
