@@ -1037,6 +1037,28 @@ I made a setup to test the things I’m trying to built and this setup is probab
       <img src={PPrehearsel} height={250}></img>
   </VerticalTimelineElement>
 
+    <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="15 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaComment />}
+  >
+    <h3 className="vertical-timeline-element-title">Finally finished V1 of the app.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Rehearsel presentation and guest lecture</h4>
+    <p>
+      In the morning I finished up the loading of settings from the MQTT and setting those in the app.<br />
+      Now when the app starts up it has the values that are set on the RPI.<br />
+      <br />
+      Starting the afternoon with a class meeting where each group went one by one with rehearsing their presentation.<br />
+      The feedback we got was positive in a broad sense. <br />
+      The 2 remarks we had: “Show the concept at the beginning visualized so that listeners don’t keep guessing what it is about”, “research impact cloud on the person, and how it makes you feel connected”.<br />
+      <br />
+      At 15:00 We had a guest lecture about Artificial Intelligence in Arts.
+    </p>
+  </VerticalTimelineElement>
+
 </VerticalTimeline>
       </div>
     </div>
