@@ -39,6 +39,7 @@ import dialogflow from "../images/DialogFlow.png";
 import PPrehearsel from "../images/PPrehearsel.png";
 import testingtypes from "../images/testingtypes.png";
 import projectimpact from "../images/projectimpact.png";
+import maxwin from "../images/maxwin.jpg";
 
 
 const Promotion = () => {
@@ -1057,6 +1058,41 @@ I made a setup to test the things I’m trying to built and this setup is probab
       <br />
       At 15:00 We had a guest lecture about Artificial Intelligence in Arts.
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="16 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Wrote testing script for the upcoming Grand Prix</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    I basically spent the whole day working on the Weekend testing program, it contains multiple functionalities is dynamically written. And during the development I learned a lot about the social API and even wrote down and tested some specific calculations we can do with the returned data.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="19 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBook />}
+  >
+    <h3 className="vertical-timeline-element-title">Analysing data and compacting it into text.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Searching online and writing down a summary.</h4>
+    <p>
+    In the morning we discussed our test results and I worked on writing down a small report about the results of the testing done during the weekend. <br />
+    After seeing the test data I came up with another idea for the product, It could be more interactive / responsive if you could fill in subjects and the Wünderwolk connects you with other people with the same subjects.  <br />
+    The Wünderwolk will then listen in on the mood in the room and collect and process that to visualize to all others. <br />
+    <br />    
+      In the afternoon I worked on looking into what makes people feel connected and wrote this down in a document. <br />
+    </p>
+    <img src={maxwin} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
