@@ -40,6 +40,7 @@ import PPrehearsel from "../images/PPrehearsel.png";
 import testingtypes from "../images/testingtypes.png";
 import projectimpact from "../images/projectimpact.png";
 import maxwin from "../images/maxwin.jpg";
+import accepttest from "../images/acceptationtest.png";
 
 
 const Promotion = () => {
@@ -1093,6 +1094,28 @@ I made a setup to test the things I’m trying to built and this setup is probab
       In the afternoon I worked on looking into what makes people feel connected and wrote this down in a document. <br />
     </p>
     <img src={maxwin} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="20 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title"></h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    Internship interview with Philips. Was a good and pleasant conversation about myself, the project and the Internship period.<br />
+    Fingers crossed and let’s wait.<br />
+    <br />
+    I helped Bart and Jarno with looking for internships and we did an end-to-end test together.<br />
+    <br />
+    In the afternoon followed a workshop about testing part 3 from Ronald.<br />
+    After this quick workshop we got an assignment to make a testplan and more specifically an acceptation test plan.
+    </p>
+    <img src={accepttest} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
