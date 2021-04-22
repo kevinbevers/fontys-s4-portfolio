@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -1104,8 +1104,8 @@ I made a setup to test the things I’m trying to built and this setup is probab
     iconStyle={{ background: 'rgb(211,211,211)' }}
     icon={<FaCode />}
   >
-    <h3 className="vertical-timeline-element-title"></h3>
-    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <h3 className="vertical-timeline-element-title">Internship interview</h3>
+    <h4 className="vertical-timeline-element-subtitle">testing, testing and testing 1 more time.</h4>
     <p>
     Internship interview with Philips. Was a good and pleasant conversation about myself, the project and the Internship period.<br />
     Fingers crossed and let’s wait.<br />
@@ -1116,6 +1116,53 @@ I made a setup to test the things I’m trying to built and this setup is probab
     After this quick workshop we got an assignment to make a testplan and more specifically an acceptation test plan.
     </p>
     <img src={accepttest} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="21 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBook />}
+  >
+    <h3 className="vertical-timeline-element-title">Reflection on the project</h3>
+    <h4 className="vertical-timeline-element-subtitle">What color values work well?</h4>
+    <p>
+    Yeeeey, got hired for my internship at Philips. <br />
+    Feedback session with Geert Jan: we talked about our tests we did during the weekend and what the results told us.<br />
+    As a group we went through the learning goals and matched our work with them.<br />
+    <br />
+    In the afternoon I wrote a small reflection about working this project.<br />
+    <br />
+    “For the past few weeks I worked on the Wünderwolk project together with Bart and Jarno.<br />
+    As a group we had a clear understanding of each others skill sets and we used this to our advantage.<br />
+    I think as a group we have made quite a good amount of progress in retrospect, however when we where working on it it sometimes felt like we weren’t working fast enough. <br />
+    This stems from us giving each other the room to take breaks when we where out of energy. <br />
+    I think giving this room benefited the projected in the end because It gives people the chance to recharge and come back with fresh energy and a drive to get it done. 
+    As a group we had some discussions about what to do and how to do it, but these where very constructive and healthy.<br />
+    Overall I enjoyed working with Bart and Jarno.”<br />
+    <br />
+    We pair programmed for the rest of the afternoon and discussed and tested colors and weather effects on the cloud.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="22 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaPray />}
+  >
+    <h3 className="vertical-timeline-element-title">Fixing some small issues.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Fingers crossed it still works when put in the encasing.</h4>
+    <p>
+    During the morning I worked on fixing the API call string encapsulation in the Python code.<br />
+    <br />
+    In the afternoon I worked on getting android apk and IOS code signed. So that we can use the app on the phone itself.<br />
+    Then we as a group worked on the light effects and testing the MLP. Using the rain function etc.
+    </p>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
