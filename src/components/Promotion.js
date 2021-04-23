@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -1162,6 +1162,24 @@ I made a setup to test the things I’m trying to built and this setup is probab
     <br />
     In the afternoon I worked on getting android apk and IOS code signed. So that we can use the app on the phone itself.<br />
     Then we as a group worked on the light effects and testing the MLP. Using the rain function etc.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="23 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBrush />}
+  >
+    <h3 className="vertical-timeline-element-title">Finishing touches.</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+      During the morning we prepared our demo and presentation for Monday and peer programmed and fine tuned the weather effects even more and looked into some code things that could be worked on to make the MLP the best it can be. <br />
+      <br />
+      In the afternoon we discussed what our future plans would be for our project. (Assignment from Eva).<br />
+      And we did the final touches for the presentation.<br />
     </p>
   </VerticalTimelineElement>
 
