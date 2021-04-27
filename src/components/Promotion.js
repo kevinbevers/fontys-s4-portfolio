@@ -1183,6 +1183,24 @@ I made a setup to test the things I’m trying to built and this setup is probab
     </p>
   </VerticalTimelineElement>
 
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="26 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaPray />}
+  >
+    <h3 className="vertical-timeline-element-title">BACK AT SCHOOL!!</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    First time back to school in a longtime. As a group we setup our project ready for display.<br />
+    After a nice lunch provided by Judith we got provided some information about the upcoming client projects. <br />
+    It was a hard choice but in the end I’m happy with the outcome. All of the projects offered something unique. <br />
+    I got the project from hand picked agencies that revolves around Recreating a person voice and how to use this.
+    </p>
+  </VerticalTimelineElement>
+
 </VerticalTimeline>
       </div>
     </div>
