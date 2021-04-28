@@ -41,6 +41,7 @@ import testingtypes from "../images/testingtypes.png";
 import projectimpact from "../images/projectimpact.png";
 import maxwin from "../images/maxwin.jpg";
 import accepttest from "../images/acceptationtest.png";
+import voiceAIprogram from "../images/voiceAIprogram.png";
 
 
 const Promotion = () => {
@@ -1199,6 +1200,26 @@ I made a setup to test the things I’m trying to built and this setup is probab
     It was a hard choice but in the end I’m happy with the outcome. All of the projects offered something unique. <br />
     I got the project from hand picked agencies that revolves around Recreating a person voice and how to use this.
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="28 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaWpexplorer />}
+  >
+    <h3 className="vertical-timeline-element-title">Starting up the client project</h3>
+    <h4 className="vertical-timeline-element-subtitle">messing around with the possibilities</h4>
+    <p>
+      First time meeting with the group for the client project, I think we have a fun group of 4 dutch guys. 
+      The project we are going to work on is based around Tacotron a text to speech architecture concept. 
+      We have setup a trello, created a product ideas file and started researching into the possibilities. 
+      For now that’s just messing around with the different ai voice generators and thinking of use cases.
+      During the afternoon we each went our separate ways for the research. I decided to generate my own voice on a online platform and installed a highly regarded Voice cloning tool on my laptop to try and recreate Olav Mol the famed dutch F1 commentator.
+    </p>
+    <img src={voiceAIprogram} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
