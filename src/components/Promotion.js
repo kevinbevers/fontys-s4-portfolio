@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush, FaClipboard, FaLightbulb} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -42,6 +42,9 @@ import projectimpact from "../images/projectimpact.png";
 import maxwin from "../images/maxwin.jpg";
 import accepttest from "../images/acceptationtest.png";
 import voiceAIprogram from "../images/voiceAIprogram.png";
+import tacotronideas from "../images/TacotronIdeas.png";
+import brainstorm from "../images/brainstorm.png";
+import ourselection from "../images/ourselection.png";
 
 
 const Promotion = () => {
@@ -1211,15 +1214,78 @@ I made a setup to test the things I’m trying to built and this setup is probab
     icon={<FaWpexplorer />}
   >
     <h3 className="vertical-timeline-element-title">Starting up the client project</h3>
-    <h4 className="vertical-timeline-element-subtitle">messing around with the possibilities</h4>
+    <h4 className="vertical-timeline-element-subtitle">Playing around with Voice AI to get to know it in a fun way.</h4>
     <p>
-      First time meeting with the group for the client project, I think we have a fun group of 4 dutch guys. 
-      The project we are going to work on is based around Tacotron a text to speech architecture concept. 
-      We have setup a trello, created a product ideas file and started researching into the possibilities. 
-      For now that’s just messing around with the different ai voice generators and thinking of use cases.
-      During the afternoon we each went our separate ways for the research. I decided to generate my own voice on a online platform and installed a highly regarded Voice cloning tool on my laptop to try and recreate Olav Mol the famed dutch F1 commentator.
+      First time meeting with the group for the client project, I think we have a fun group of 4 dutch guys. <br />
+      The project we are going to work on is based around Tacotron a text to speech architecture concept. <br />
+      We have setup a trello, created a product ideas file and started researching into the possibilities. <br />
+      For now that’s just messing around with the different ai voice generators and thinking of use cases.<br />
+      During the afternoon we each went our separate ways for the research.<br />
+      I decided to generate my own voice on a online platform and installed a highly regarded Voice cloning tool on my laptop to try and recreate Olav Mol the famed dutch F1 commentator.<br />
     </p>
     <img src={voiceAIprogram} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="29 April 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaWpexplorer />}
+  >
+    <h3 className="vertical-timeline-element-title">Workshop brainstorming.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Writing down fun and cool ideas and doing a bit of research into the possibilities and technologies.</h4>
+    <p>
+    Workshop creative deep diving from Judith. <br />
+    We wrote down our visions of the project individually and then went into a seperate call to brainstorm possible ideas with our client project. <br />
+    <br />
+      As a group we continued the brainstorm in the afternoon and did some research into Voice AI, Text to Speech and how the human voice works.<br />
+    </p>
+    <img src={brainstorm} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="30 April 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaClipboard />}
+  >
+    <h3 className="vertical-timeline-element-title">Working out ideas and defining them more.</h3>
+    <h4 className="vertical-timeline-element-subtitle">First meeting with client and asking him our questions we prepared.</h4>
+    <p>
+      As a group today we started to think of a lot of ideas and possibilities with the Tacotron technology. <br />
+      We spoke with Mijke about our ideas and how we could refine them or think of even more crazy ideas to come to great innovative ideas. <br />
+      She advised us to make a Miro board and we started working on that.<br /> 
+      We also updated our trello board.<br />
+      During the afternoon we had a meeting with the client, he told us to link our great ideas to companies they have collaborated with in the past. <br />
+      Or just link or ideas in general to businesses.<br />
+       He also answered our questions. Does tacotron need to be used? No, but the concept of tacotron is using Voice AI in a creative and fresh way.
+    </p>
+    <img src={tacotronideas} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="10 May 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaLightbulb />}
+  >
+    <h3 className="vertical-timeline-element-title">Updating each other and getting feedback.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Thinking about impact and value of our top ideas.</h4>
+    <p>
+    During the morning we discussed our progress and what should be done today, we decided to choose our top 3 ideas and work them out a bit more.<br />
+    We also had feedback from Mijke who told us we where ahead of the curve but shouldn’t stop thinking of new ideas. And that we should work out the impact of our ideas.<br />
+    <br />
+    So In the afternoon we thought of some more ideas and then went on to work out the impact and business value for our 3 ideas we picked.<br />
+    We think we did a good job on it and hope to learn some useful stuff during the workshop tomorrow that we have at school. <br />
+    Been al long time we had one of those.<br />
+    </p>
+    <img src={ourselection} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
