@@ -8,3 +8,83 @@
   .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element .vertical-timeline-element-icon {
     box-shadow: 0 0 0 4px #424242, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   }
+
+  .click {
+    cursor: pointer;
+  }
+
+  .docLink {
+    color: white;
+  }
+
+  .area {
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    vertical-align: middle;
+  }
+
+  .text1 {
+    text-align: left;
+    margin-left: 128px;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+
+  .text3 {
+    text-align: center;
+    margin-left: 128px;
+  }
+
+  .text4 {
+    text-align: right;
+    margin-right: 128px;
+  }
+
+  .logoLeft {
+    position: absolute;
+    left: 0;
+  }
+
+  .no-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .trigger {
+    background-color: #dadf3f;
+  }
+
+  .triggertoidea {
+    background: linear-gradient(180deg, #dadf3f 50%, #9dc54d 50%);
+  }
+
+  .idea {
+    background-color: #9dc54d;
+  }
+
+  .ideatoconcept {
+    background: linear-gradient(180deg, #9dc54d 50%, #5fa79c 50%);
+  }
+
+  .concept {
+    background-color: #5fa79c;
+  }
+
+  .concepttorealisation {
+    background: linear-gradient(180deg, #5fa79c 50%, #a62b2f 50%);
+  }
+
+  .realisation {
+    background-color: #a62b2f;
+  }
+
+  .realisationtoevaulation {
+    background: linear-gradient(180deg, #a62b2f 50%, #d35b2c 50%);
+  }
+
+  .evaulation {
+    background-color: #d35b2c;
+  }

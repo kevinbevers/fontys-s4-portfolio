@@ -25,6 +25,7 @@
     "react-icons": "^4.2.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1",
+    "react-tooltip": "^4.2.19",
     "react-vertical-timeline-component": "^3.3.3"
   },
   "devDependencies": {

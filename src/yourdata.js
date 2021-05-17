@@ -16,6 +16,7 @@ import ProfielFoto from "./images/ProfielFoto.png";
 
 // Project images
 import project1 from "./images/IP_Dart_Logo.png";
+import project2 from "./images/PPrehearsel.png";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -59,10 +60,9 @@ export default {
       para:
         "aesthetical piece and eye catcher, that visualizes emotions as weather effects. Can also display the upcoming weather forecast.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: project2,
       //Project URL - Add Your Project Url Here
-      url: "",
+      url: "/fontys-s4-portfolio/fontys-s4-duo",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
