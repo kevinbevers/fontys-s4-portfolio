@@ -50,7 +50,7 @@ const Project2 = () => {
         </div>
     </div>
 
-<ReactTooltip id='inspiration' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='inspiration' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>The inspiration that catalyzed this duo / trio project is a simple one, we where assigned to try work with the technnologies that intrigue us and at the same time try to create impact with the project.<br /> <br />
 In our eyes the easiest way to create impact on people is to use emotions.<br />
 We thought of a bunch of ideas that included Camera vision at first because all 3 of us have used it in the individual project. <br />
