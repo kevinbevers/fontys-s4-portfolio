@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush, FaClipboard, FaLightbulb} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush, FaClipboard, FaLightbulb, FaSchool, FaMicrophone} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -1286,6 +1286,61 @@ I made a setup to test the things I’m trying to built and this setup is probab
     Been al long time we had one of those.<br />
     </p>
     <img src={ourselection} height={250}></img>
+  </VerticalTimelineElement>
+  
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="11 May 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaSchool />}
+  >
+    <h3 className="vertical-timeline-element-title">Day @ School</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+      In the morning we had a workshop and we evaluated our top 3 ideas with hypothesis, storyboards and a value proposition.<br />
+      <br />
+      We continued working on this in the afternoon.<br />
+      We then had a pretty lengthy and interactive feedback session with Judith and Ronald about our top 3 ideas. <br />
+      They gave us valuable feedback and told us to talk to experts / people that could make use of our ideas or that could give us valuable insight in how the idea could add / create value.<br />
+      After we finished our work as a group I did somethings to get my internship rounded off.<br />
+      My project proposal wasn’t correctly worded and needed some tweaking for it to be accepted.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="12 May 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaMicrophone />}
+  >
+    <h3 className="vertical-timeline-element-title">Working out our concept.</h3>
+    <h4 className="vertical-timeline-element-subtitle">preparing our interview</h4>
+    <p>
+    Today we talked over what should be done for our project. <br />
+    We wrote down questions for our interview with Evert, and questions for our meeting with Samet (Handpicked agencies). <br />
+    After that we started working on our concept for our most liked idea Audio Film.<br />
+    During the afternoon we continued working on the concept, we designed a few wireframes for the website that we will potentially build if this project get’s approved.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="17 May 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Updating our portfolio's</h3>
+    <h4 className="vertical-timeline-element-subtitle">and talking through our project</h4>
+    <p>
+      In the morning we updated our storyboards and talked our idea through as a group. <br />
+      For the afternoon we have decided to have a meeting with Geert Jan and work each on our portfolio’s. <br />
+    </p>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
