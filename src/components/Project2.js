@@ -66,7 +66,7 @@ These weather effects came out to be a very nice addition to the project.<br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='concept' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='concept' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
   To explain our idea to other people and get it more clear for ourselves as a group we described our concept in detail in our research document.<br />
   Why is it in the research document and not in a seperate document? Ask Bart. <br />
@@ -78,7 +78,7 @@ These weather effects came out to be a very nice addition to the project.<br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='portfolio' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='portfolio' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
   To confirm we have everything to proof our learning goals we made a document that links each learning goal to a deliverable.<br />
 <br />
@@ -88,7 +88,7 @@ These weather effects came out to be a very nice addition to the project.<br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='research' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='research' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
   We did a lot of research to find out how we could realize our concept in the best way possible. <br />
   We looked into different options for communication between the app that controls the Wünderwolk.<br />
@@ -102,7 +102,7 @@ These weather effects came out to be a very nice addition to the project.<br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='tech' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='tech' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
 Our technical justification document explains our choices.<br />
 And makes it so we can justify our choice to each other and our product owner.<br />
@@ -113,7 +113,7 @@ And makes it so we can justify our choice to each other and our product owner.<b
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='mock' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='mock' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
   To make concepts more clear a mock-up is always helpful that is why we decided to make multiple mock ups that visualizes our concept.<br />
   We also worked out technical difficulties before hand by describing their inner workings in our design document. <br />
@@ -126,7 +126,7 @@ And makes it so we can justify our choice to each other and our product owner.<b
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='arch' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='arch' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
 To make sure our technical choices will work and prevent confusion within the team during development we made a few diagrams that define our system architecture.<br />
 We made these based on the C4 models a well known standard within software development.<br/>
@@ -139,7 +139,7 @@ We made these based on the C4 models a well known standard within software devel
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='proto' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='proto' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
 To validate our technical ideas we made proof of concepts for each part of the project. <br />
 These can be found in our github repo.<br />
@@ -151,7 +151,7 @@ These can be found in our github repo.<br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='class' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='class' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
 To support our architecture we made a class diagram to show the inner working of our program in a simple overview..<br />
 This diagram shows the relation between our different classes. <br />
@@ -162,7 +162,7 @@ This diagram shows the relation between our different classes. <br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='first' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='first' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
     We made a first complete version of our concept and we showed this off at the demo day we had at school.<br />
     this was a complete physical cloud encased in a terrarium and the cloud could be controlled using a cross platform mobile app.<br />
@@ -175,7 +175,7 @@ This diagram shows the relation between our different classes. <br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='test' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='test' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
 To make sure our product works as expected we wrote multiple tests and described the wanted outcomes of these tests in a test plan.<br />
 this test plan also describes why and how the tests should be executed. <br />
@@ -187,7 +187,7 @@ this test plan also describes why and how the tests should be executed. <br />
 </ul>
 </span>
 </ReactTooltip>
-<ReactTooltip id='accept' clickable={true} effect={"solid"} place={"bottom"}>
+<ReactTooltip id='accept' clickable={true} effect={"solid"} place={"bottom"} backgroundColor={"black"} arrowColor={"black"}>
 <span>
 To verify our concept is ready for production it needs to pass a set criteria. these set criteria should be tested and are called acceptance tests.<br />
 In our test plan we have described multiple criteria and how to test these criteria.<br />
