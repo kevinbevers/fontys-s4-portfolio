@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush, FaClipboard, FaLightbulb, FaSchool, FaMicrophone} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush, FaClipboard, FaLightbulb, FaSchool, FaMicrophone, FaEnvelope, FaDraftingCompass, FaMarker, FaBed} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -45,6 +45,7 @@ import voiceAIprogram from "../images/voiceAIprogram.png";
 import tacotronideas from "../images/TacotronIdeas.png";
 import brainstorm from "../images/brainstorm.png";
 import ourselection from "../images/ourselection.png";
+import chatbot from "../images/chatbot.png";
 
 
 const Promotion = () => {
@@ -1340,6 +1341,132 @@ I made a setup to test the things I’m trying to built and this setup is probab
     <p>
       In the morning we updated our storyboards and talked our idea through as a group. <br />
       For the afternoon we have decided to have a meeting with Geert Jan and work each on our portfolio’s. <br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="18 May 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaEnvelope />}
+  >
+    <h3 className="vertical-timeline-element-title">Our idea got killed :(</h3>
+    <h4 className="vertical-timeline-element-subtitle">Meeting with Evert.</h4>
+    <p>
+    Excited for the meeting with Evert, hope he can give us some valuable insight into movie and audio.<br />
+    We had a meeting with handpicked agencies at 10:00 they steered us in a completely different direction meaning we have to go back to the drawing board. <br />
+    We are all a bit bitter at the moment. And went each for a walk / extended break.<br />
+    <br />
+    In the afternoon we started thinking about concepts but we didn’t really make a lot of progress, we where stuck in the same headspace.<br />
+    I also had my feedback for my duo / trio project portfolio.<br /> 
+    It was a positive feedback session, they told me that my technical aspects where fine and that for this last project I should try and focus on the vision and impact of a product more and also describe this thoroughly in my documentation.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="19 May 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaDraftingCompass />}
+  >
+    <h3 className="vertical-timeline-element-title">Day @ School.</h3>
+    <h4 className="vertical-timeline-element-subtitle">working out new concepts.</h4>
+    <p>
+      School day, we had a very nice in person lecture / presentation by Huub.<br />
+      He presented us concepts and thoughts about ethics in technology. <br />
+      He recommended a few books. Gave us different visions of ethics and technology and gave us an assignment to think about a smart toilet and the ethics that could get involved with that.<br />
+      <br />
+      After lunch we thought about all thinks we could make for racingnews365. <br />
+      Started by checking out multiple other sports news sites and see what they have compared to racing news. <br />
+      We also wrote down all words that come to mind with Formula 1 since this is racings point focus. We spitballed our Ideas and we wrote them down on a whiteboard. <br />
+      We came up with 2 main concepts to Wizard of Oz. We are going to make a concept where the site has a voice over guidance. <br />
+      A concept where there is an interactive chat bot with voice with a driver. <br />
+      And one completely different concept where a google home reads the news from the site using the driver voice if the driver is involved in the interview.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="20 May 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaEnvelope />}
+  >
+    <h3 className="vertical-timeline-element-title">Empathising as a developer.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Making a wizard of oz concept example.</h4>
+    <p>
+      To start the morning we had a workshop from Judith about empathising. <br />
+      We also had an assignment for this workshop. But I couldn’t complete it since I had a semester coach meeting during the explanation of it.<br />
+      <br />
+      In the afternoon me and Daan worked on making a small Wizard of Oz video for the google home news reader. <br />
+      To read out the news a voice model would be used. Instead of audio fragments from actual interviews. 
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="21 May 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBed />}
+  >
+    <h3 className="vertical-timeline-element-title">Oh no I woke up late.</h3>
+    <h4 className="vertical-timeline-element-subtitle">create chatbot example in html.</h4>
+    <p>
+        I slept in so I missed the morning. :O<br />
+        In the afternoon we worked on another wizard of Oz for the chatbot. We downloaded the site and added our chatbot as we envision it.<br />
+    </p>
+    <img src={chatbot} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="25 May 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaMarker />}
+  >
+    <h3 className="vertical-timeline-element-title">Generating Voice Models.</h3>
+    <h4 className="vertical-timeline-element-subtitle">cutting together audio for a dataset.</h4>
+    <p>
+        For today we decided to start diving a bit in the technical. <br />
+        We are basically waiting for confirmation / approval so we are gonna work on some generic technical challenges so we can instantly get started once we get approval.<br />
+        <br />
+        Me and Daan started training a voice model for Olav Mol with the Real Time Voice cloning project.<br />
+        <br />
+        After properly installing the tools needed in the morning with Daan and finding out who to use as a practice model in the morning. <br />
+        I continued the afternoon cutting together an audio file with audio from David Croft (Sky Sport F1 commentator) and training text with it. <br />
+        The results are okay but Not marvellous. <br />
+        It’s going to be a real challenge to figure out how to train a model to make it sound natural and smooth.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="26 May 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaGlasses />}
+  >
+    <h3 className="vertical-timeline-element-title">Workshop portfolio and continue work on voice cloning</h3>
+    <h4 className="vertical-timeline-element-subtitle">Reading a very interesting paper about listening to people.</h4>
+    <p>
+    Workshop about the portfolio in the morning for the rest of the time until the afternoon we spend our time finding other voice cloning tools and trying to work out a way we can make a decent enough sounding voice model.<br />
+    <br />
+    In the afternoon we all worked on our portfolio’s and talked about the best approaches to write our work down.<br />
+    I also took the time to read Eva’s Paper about listening and social media. After reading I immediately thought of ways to show active listening without immediate judgement and prevent people from using a post as a means to an end.<br />
+    1. Show people that have seen / read it without judging. E.g. 420k people have read this and are still contemplating it’s meaning.<br />
+    2. Another extra emoji which is automatically given when someone has read a post but doesn’t feel the need to respond. It’s an ear of sorts showing someone has listened.<br />
+    3. The new social media features like twitters spaces. Where people can just talk like a podcast but people can request to speak and or can be invited to speak. Opens up more social interaction and gives people the option to just listen.<br /><br />
+    I’m not saying any of these ideas is a solution or even beneficial, it’s just some of my first thoughts while reading. Overall I really liked subject and the paper and I would like to read more about it in the future if interesting material is presented.
     </p>
   </VerticalTimelineElement>
 
