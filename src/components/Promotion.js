@@ -46,6 +46,8 @@ import tacotronideas from "../images/TacotronIdeas.png";
 import brainstorm from "../images/brainstorm.png";
 import ourselection from "../images/ourselection.png";
 import chatbot from "../images/chatbot.png";
+import telegramgit from "../images/telegram-git.png";
+import checo from "../images/checo.png";
 
 
 const Promotion = () => {
@@ -1468,6 +1470,74 @@ I made a setup to test the things I’m trying to built and this setup is probab
     3. The new social media features like twitters spaces. Where people can just talk like a podcast but people can request to speak and or can be invited to speak. Opens up more social interaction and gives people the option to just listen.<br /><br />
     I’m not saying any of these ideas is a solution or even beneficial, it’s just some of my first thoughts while reading. Overall I really liked subject and the paper and I would like to read more about it in the future if interesting material is presented.
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="27 May 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaMarker />}
+  >
+    <h3 className="vertical-timeline-element-title">Meeting with handpicked agencies.</h3>
+    <h4 className="vertical-timeline-element-subtitle">Workshop critical thinking</h4>
+    <p>
+      Preparing our presentation and trying to make a few more models. And looking into how to train the models properly.<br/>
+      <br/>
+      Meeting with Handpicked agencies in the afternoon. <br/>
+      Eva joined us in the meeting to support us and help us process the given feedback. <br/>
+      It was very helpful and we also got given a clear concept to work out. <br/>
+      We are going to look into reading news snippets in different ways and how sharing the news could be made interesting. <br/>
+      For example a WhatsApp message with some voice ai generated msg. <br/>
+      <br/>
+      After the meeting we had a workshop from Eva about Critical Thinking with the main subject being her paper about listening on social media.<br/>
+      She asked us Philosophical questions about Listening and critical thinking. She also explained us ways to help us to critical think.<br/>
+      <br/>
+      To finish the afternoon we had a very broad and extensive brainstorm session guided by Eva we thought of some really cool fresh ideas that are still linked to racingnews365.<br/>
+      Eva also gave us suggestions to test our concepts and how to validate with our target audience.<br/>
+       We should also look into what the future can bring for this subject.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="28 May 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaGlasses />}
+  >
+    <h3 className="vertical-timeline-element-title">Creating audio files for concepts</h3>
+    <h4 className="vertical-timeline-element-subtitle">Creating a telegram bot</h4>
+    <p>
+      Worked on audio files and tested different types of messages to make the news messages more interesting. <br />
+      Our first good result was a message with f1 radio notification sound, f1 engine sound in background and AI Vettel congratulating Max Verstappen on the Monaco win.<br/>
+      <br />
+      In the afternoon I worked out a concept for a telegram morning briefing. Using a mp3 file and sending this in a telegram notification channel only. People can join <br />this and get push notifications when a new news message is available. <br />
+      Me and Glenn continued until 16:00 to work out this prototype we already have a first working version of the bot sending voice messages in a telegram channel.<br />
+    </p>
+    <img src={checo} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="31 May 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Programming :)</h3>
+    <h4 className="vertical-timeline-element-subtitle">And even more programming :)</h4>
+    <p>
+      In the morning I worked on programmatically editing the generated audio fragments into a board radio effect.<br />
+      So that messages can sound like it’s being spoken by a driver over the radio.<br />
+      <br />
+      At the start of the afternoon we talked Geert Jan up to speed and continued working on our telegram-audiomessage-chat-bot<br />
+      We implemented a text to speech module and improved upon our project structure and made more types of audio editing.<br />
+    </p>
+    <img src={telegramgit} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
