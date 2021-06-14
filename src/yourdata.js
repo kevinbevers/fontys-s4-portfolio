@@ -76,40 +76,6 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "/fontys-s4-portfolio/fontys-s4-client",
     },
-    {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "",
-    },
-    {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "",
-    },
-    {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "",
-    },
-
     /*
     If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
     ,{
