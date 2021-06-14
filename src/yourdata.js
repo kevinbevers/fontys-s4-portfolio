@@ -17,6 +17,7 @@ import ProfielFoto from "./images/ProfielFoto.png";
 // Project images
 import project1 from "./images/IP_Dart_Logo.png";
 import project2 from "./images/PPrehearsel.png";
+import project3 from "./images/project3.png";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -66,14 +67,14 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "S4 Client project, Tacotron 3.0", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Exploring the possibilities of Voice Cloning and making a prototype in which it is used. The prototype we build as a group needed to be foccussed on sharing racing news.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      project3,
       //Project URL - Add Your Project Url Here
-      url: "",
+      url: "/fontys-s4-portfolio/fontys-s4-client",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
