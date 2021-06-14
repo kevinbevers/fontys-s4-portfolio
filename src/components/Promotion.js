@@ -48,6 +48,7 @@ import ourselection from "../images/ourselection.png";
 import chatbot from "../images/chatbot.png";
 import telegramgit from "../images/telegram-git.png";
 import checo from "../images/checo.png";
+import school from "../images/school.jpg";
 
 
 const Promotion = () => {
@@ -1538,6 +1539,185 @@ I made a setup to test the things I’m trying to built and this setup is probab
       We implemented a text to speech module and improved upon our project structure and made more types of audio editing.<br />
     </p>
     <img src={telegramgit} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="1 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaSchool />}
+  >
+    <h3 className="vertical-timeline-element-title">Day @ School. As a group we discussed our progress and worked on our portfolios</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    Tried working out what we could do with our prototype and how we can shape it so that it is a cool and fun to use.
+    </p>
+    <img src={school} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="2 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Audo distortion filter</h3>
+    <h4 className="vertical-timeline-element-subtitle">Code cleanup</h4>
+    <p>
+    During the morning there was a workshop git for the basics which I didn’t join. <br />
+    The next one about branching I am gonna join even tho I already know about branching. <br />
+    I really want to check up if I do actually know everything about it and that I understand it fully.<br /> 
+    I relaxed outside in a hammock and tweaked / worked on my distortion filter.<br />
+    <br />
+    In the afternoon we started a team’s meeting and Me and Glenn worked on cleaning up our code a little and further tweaked / connected out our prototype. <br />
+    We thought of ideas on how to make it usable as a tool and how we should couple the generated voice together with the fun audio generator.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="3 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaFile />}
+  >
+    <h3 className="vertical-timeline-element-title">Front end prototype</h3>
+    <h4 className="vertical-timeline-element-subtitle">POC documentation & STRP festival</h4>
+    <p>
+    Morning walk to the bakery and back to my girlfriends place. 
+    Then I joined a call with the rest of the group to talk about our front end for our prototype. <br />
+    We talked about the technical aspects of it. Then we had a feedback meeting with Judith about our project concept vision and how we can write it down. <br />
+    She also told us we should document our POC findings to use in our portfolio.<br />
+    <br />
+    In the afternoon I started working on some documentation for our project POC’s and concept vision. <br />
+    But before I started on that I briefly did a tour and joined the online STRP festival. <br />
+    There where some weird things in there I couldn’t really place what it was about.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="4 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaFile />}
+  >
+    <h3 className="vertical-timeline-element-title">POC documentation</h3>
+    <h4 className="vertical-timeline-element-subtitle">Visting STRP festival again and preparing presentation.</h4>
+    <p>
+      Working with the guys on fixing / setting up our front end link to the POC.<br />
+      After that I continued work on the POC findings document.<br />
+      <br />
+      In the afternoon we went over our presentation for next week Monday.<br />
+      I also visited the STRP festival again and gave answer to the questions Eva asked.<br />
+      <br />
+      Which idea/concept/expression is resonating a clear vision according to you and why? <br />
+      The bar resonates a clear vision of the importance of communications and the different types one can communicate.<br />
+      <br />
+      Which idea/concept/expression is the most creative of all according to you and why? <br />
+      Acts In Translation by Dalena Tran. It’s a really cool concept because it plays into ambience of city sound. And the intend of the artwork was pretty clear to me compared to some other art works.<br />
+      <br />
+      What, at STRP, gave an extra insight/input to your own learning process of this specialisation semester? <br />
+      The only insight it really gave me is not to judge to early as this is something I sometimes do. Some artworks I wrote off in the beginning ended up being interesting.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="7 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaFile />}
+  >
+    <h3 className="vertical-timeline-element-title">Meeting with client</h3>
+    <h4 className="vertical-timeline-element-subtitle">Rewrote POC document and made an interaction flow</h4>
+    <p>
+    In the morning we had a meeting with handpicked to show our progress and discuss the next steps. <br />
+    The results of this meeting where useful. Samet approved of the work we done and gave us a clear to direction to continue with. <br />
+    We are going to build a prototype and flesh out the interaction of both the Fan and the news editor.<br />
+    <br />
+    In the afternoon I rewrote our Vision and POC document in Dutch. I previously wrote a draft of it in English.<br />
+    After I finished up the translation and rewriting of that document I started on the design of our final prototype and looked into the interaction flow of the news editor with our final prototype.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="8 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaPencilRuler />}
+  >
+    <h3 className="vertical-timeline-element-title">Designing the looks</h3>
+    <h4 className="vertical-timeline-element-subtitle">Working on portfolio's</h4>
+    <p>
+    As a group we made a design for our final prototype in Adobe XD we discussed the options that are needed and how we want it to look.<br />
+    <br />
+    In the afternoon we decided to work on our portfolio’s and collect some samples / demo’s for potential technique’s and designs we can use for our final prototype.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="9 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaBrain />}
+  >
+    <h3 className="vertical-timeline-element-title"></h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+      Didn’t do anything today.
+      I woke up way too late and decided to do some work in the garden.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="10 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaFile />}
+  >
+    <h3 className="vertical-timeline-element-title">Starting on the final prototype</h3>
+    <h4 className="vertical-timeline-element-subtitle">rehearsel presentation</h4>
+    <p>
+    In the morning I joined the group call and started working on our react version of our web interface. <br />
+    And explaining how it works to Glenn and Lars.<br />
+    We came quite far with the steps and already connected the flow of the front end with the back-end.<br />
+    <br />
+    In the afternoon we had a presentation rehearsal with the whole class. <br />
+    This was pretty useful to prepare for our final meeting that is coming up with Handpicked agencies.<br />
+     In that meeting we are going to show our final prototype and our vision and goals behind it.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="11 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">making the design a reality</h3>
+    <h4 className="vertical-timeline-element-subtitle">Showing each other our progress</h4>
+    <p>
+      In the morning and early afternoon I worked on making the designed pages a reality with tailwind CSS and react (nextJS). <br />
+      I spent most time reading up on tailwind CSS and making the driver select area.<br />
+      <br />
+      At 3pm in the afternoon we had a group meeting and discussed our progress and showed each others our work.
+    </p>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
