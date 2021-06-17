@@ -49,6 +49,8 @@ import chatbot from "../images/chatbot.png";
 import telegramgit from "../images/telegram-git.png";
 import checo from "../images/checo.png";
 import school from "../images/school.jpg";
+import previewwip from "../images/previewwip.png";
+import finalproto from "../images/finalproto.png";
 
 
 const Promotion = () => {
@@ -1718,6 +1720,92 @@ I made a setup to test the things I’m trying to built and this setup is probab
       <br />
       At 3pm in the afternoon we had a group meeting and discussed our progress and showed each others our work.
     </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="14 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaSchool />}
+  >
+    <h3 className="vertical-timeline-element-title">Day @ Fontys R10</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    Day @ school. Catching up with classmates that where attending and updating my portfolio timeline to today.<br />
+    As a group we discussed and listed everything we need to have finished and documented for our final delivery and started working on those.<br />
+    <br />
+    In the afternoon we had Workshop from Geert Jan.<br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="15 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaFile />}
+  >
+    <h3 className="vertical-timeline-element-title">Working on documents</h3>
+    <h4 className="vertical-timeline-element-subtitle">Feedback on my portfolio</h4>
+    <p>
+    In the morning we all decided to go 1 by 1 on the required documents we need to deliver to show our learning outcomes.<br />
+    I worked our Architecture diagrams. <br />
+    And our Technical specifications document. <br />
+    While we where working on the documentation me and Glenn cross checked each others work. <br />
+    Lars and Daan did the same for their pieces of documentation. <br />
+    After this documentation work I had a bit of time left to work on the React app and made it so the state of each step can be tracked in our main component. (Can be used for the step 4 page where we show an overview of the selection). <br />
+    <br />
+    Then in the afternoon after a nice walk with the Dog I decided to go help out / work together with Daan on the Acceptance test plan.<br />
+    At 14:30 I had another Portfolio feedback meeting with Judith and Ronald. <br />
+    They gave me some valuable feedback and bullet points of things that should be worked into my portfolio to make this a successful semester.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="16 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Programming on the final prototype</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    In the morning I worked on Step 3 and 4 in our front-end and made it fully functional.  <br />
+    Only thing left is Step 5 the send page and connecting it to our api with some axios calls in the write place. <br />
+    The only challenge we have left is finding out how to send our audio file to the front end over rest. <br />
+     We already have a way to make it work. But that’s not the proper way so we will first try the proper way sending it over or serving a server url. <br />
+    <br />
+    In the afternoon I went for a lunch with my Girlfriend and My grandparents from Belgium came on a visit.  <br />
+    I discussed this with the group previously and they where okay with it. <br />
+    I joined a meeting with Erik & Glenn during my Lunch to give my input and receive feedback on our documentation.
+    </p>
+    <img src={previewwip} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="17 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Finishing up our final prototype</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    In the morning me and Glenn finished up the front end and started working out how to connect the back-end exactly to make a nice proper final prototype. <br />
+    We also discussed our posters and how we are going to demo our prototype in our client demonstration day @ school in Tilburg. <br />
+      <br />
+    In the afternoon I finished up the final prototype with the back-end connected and some small styling additions. <br />
+    We asked Judith to test / validate our final prototype and give us some final feedback for the project. <br />
+    If all goes well with the feedback we plan to all individually work on our portfolio’s tomorrow.
+    </p>
+    <img src={finalproto} height={250}></img>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
