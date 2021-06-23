@@ -9,6 +9,23 @@
     box-shadow: 0 0 0 4px #424242, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   }
 
+  .story {
+    width: 80%;
+    text-align: left;
+    margin-top: 2px;
+  }
+
+  .storyTitle {
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+
+  @media (min-width: 768px) {
+    .story {
+      width: 50%;
+    }
+}
+
   .quicknav {
     margin-bottom: 2px;
   }
