@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 import { VerticalTimeline, VerticalTimelineElement }  from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush, FaClipboard, FaLightbulb, FaSchool, FaMicrophone, FaEnvelope, FaDraftingCompass, FaMarker, FaBed} from "react-icons/fa";
+import {FaPaintBrush, FaMicrochip, FaGlasses, FaWpexplorer, FaBrain, FaNewspaper, FaTools, FaSwatchbook, FaPencilRuler, FaWalking, FaFile, FaBullseye, FaLaptopCode, FaWindowRestore, FaNetworkWired, FaStream, FaComment, FaFilePowerpoint, FaMobile, FaBook, FaBriefcase, FaWifi, FaCode, FaPray, FaBrush, FaClipboard, FaLightbulb, FaSchool, FaMicrophone, FaEnvelope, FaDraftingCompass, FaMarker, FaBed, FaRegCommentAlt} from "react-icons/fa";
 import "../styles/timeline.css";
 // Images
 import visionboard1 from  "../images/CreativeTechnologyVisionBoard.jpg"
@@ -51,6 +51,8 @@ import checo from "../images/checo.png";
 import school from "../images/school.jpg";
 import previewwip from "../images/previewwip.png";
 import finalproto from "../images/finalproto.png";
+import word from "../images/word.png";
+import backgroundnoise from "../images/backgroundnoise.png";
 
 
 const Promotion = () => {
@@ -63,6 +65,15 @@ const Promotion = () => {
             <h1>{data.promotionHeading}</h1>
           </Fade>
           <p>{data.promotionPara}</p>
+          <div>
+            <h3 className="quicknav">Quick navigation</h3>
+            <a href="#startindi">Start of individual project</a><br />
+            <a href="#endindi">End of individual project</a><br />
+            <a href="#startduo">Start of duo / trio project</a><br />
+            <a href="#endduo">End of duo / trio project</a><br />
+            <a href="#startclient">Start of client project</a><br />
+            <a href="#endclient">End of client project</a><br />
+          </div>
         </div>
   <VerticalTimelineElement
     className="vertical-timeline-element"
@@ -200,6 +211,7 @@ Created 2 vision boards. One for my projects and one for my general vision for c
     date="22 Feb 2021"
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaNewspaper />}
+    id={"startindi"}
   >
     <h3 className="vertical-timeline-element-title">Deciding what individual project to take on and defining it.</h3>
     <h4 className="vertical-timeline-element-subtitle">Workshop creating a creative technology manifest.</h4>
@@ -549,6 +561,7 @@ I made a setup to test the things I’m trying to built and this setup is probab
     date="12 March 2021"
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaComment />}
+    id={"endindi"}
   >
     <h3 className="vertical-timeline-element-title">Workshop creative process</h3>
     <h4 className="vertical-timeline-element-subtitle">and making a powerpoint presentation</h4>
@@ -574,6 +587,7 @@ I made a setup to test the things I’m trying to built and this setup is probab
     date="15 March 2021"
     iconStyle={{ background: 'rgb(211,211,211)' }}
     icon={<FaStream />}
+    id={"startduo"}
   >
     <h3 className="vertical-timeline-element-title">Assigned a duo project partner</h3>
     <h4 className="vertical-timeline-element-subtitle">Brainstorming and forming an idea for the duo project</h4>
@@ -1200,6 +1214,7 @@ I made a setup to test the things I’m trying to built and this setup is probab
     date="26 April 2021"
     iconStyle={{ background: 'rgb(211,211,211)' }}
     icon={<FaPray />}
+    id={"endduo"}
   >
     <h3 className="vertical-timeline-element-title">BACK AT SCHOOL!!</h3>
     <h4 className="vertical-timeline-element-subtitle"></h4>
@@ -1218,6 +1233,7 @@ I made a setup to test the things I’m trying to built and this setup is probab
     date="28 April 2021"
     iconStyle={{ background: 'rgb(220,220,220)' }}
     icon={<FaWpexplorer />}
+    id={"startclient"}
   >
     <h3 className="vertical-timeline-element-title">Starting up the client project</h3>
     <h4 className="vertical-timeline-element-subtitle">Playing around with Voice AI to get to know it in a fun way.</h4>
@@ -1806,6 +1822,90 @@ I made a setup to test the things I’m trying to built and this setup is probab
     If all goes well with the feedback we plan to all individually work on our portfolio’s tomorrow.
     </p>
     <img src={finalproto} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="18 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaRegCommentAlt />}
+  >
+    <h3 className="vertical-timeline-element-title">Getting some valuable feedback</h3>
+    <h4 className="vertical-timeline-element-subtitle">working on my portfolio story</h4>
+    <p>
+    In the morning we had feedback from Mijke as a group and I started working on my story for the client project.<br />
+    The story is going to be about our journey through the project. My goal is to capture my vision and personal growth of the whole semester into this story that at the same time explains our experiences from the client project.<br />
+    <br />
+    In the afternoon I started my work on my story for the client project which I’m going to put in my portfolio. <br />
+    The story is going to be quite large but I hope and think it will encapsulate everything that was still missing from my portfolio and describe my client project journey in depth.<br />
+    </p>
+    <img src={word} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="21 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaCode />}
+  >
+    <h3 className="vertical-timeline-element-title">Adding that final bit of feedback</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    In the morning we started with a meeting discussing what we still needed to do. It boiled down for that I would build out the prototype with the feedback we received last week and add our new step to tweak and edit background noise.<br />
+    <br />
+    After the meeting I immediately started working on this.<br />
+    In the afternoon I continued my work on the prototype; I really want to have it as good as it can be. <br />
+    We where told it could just be visual and it isn’t required to work but that isn’t good enough for me. It must work. <br />
+    And so it did when I finished working on it just before I had dinner at 17:30. <br />
+    Most of the time didn’t go into making it work this was actually pretty easy in my opinion. Most of my work went into customising browser elements like the radio buttons. Checkboxes and volume slider.<br />
+    </p>
+    <img src={backgroundnoise} height={250}></img>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(211,211,211)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(211,211,211)' }}
+    date="22 June 2021"
+    iconStyle={{ background: 'rgb(211,211,211)' }}
+    icon={<FaFilePowerpoint />}
+    id={"endclient"}
+  >
+    <h3 className="vertical-timeline-element-title">Client delivery</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    It’s the day of delivery to the client. It’s also a school day but I can’t attend because I have to work in the afternoon (this is a bit unfortunate but I felt like I could go and earn a few extra euro’s and not handicap our progress at all. Hence why I did extra work yesterday to compensate) <br />
+      <br />
+    At 10:00 we had a meeting with Handpicked agencies and presented them our presentation describing our challenges what we have in mind for the future of the concept and we showed our final prototype to impress them and show what is possible. Overall the had positive feedback and they had no real remarks regarding it.  <br />
+    The things they told us where focussed on how they see it being used and how for example we envision the voice messages being shared on visual media like instagram. We told them we would see it as a moving audio track or picture in the background while the audio plays. <br />
+    <br />
+    After this meeting we joined up as a group we where all happy it went well but where left wondering if they liked it or not. Because they didn’t say anything about them liking or disliking it. <br />
+    <br />
+    We then ended the call and each did the tasks that where left for us individually. <br />
+    I continued on my big story for the client project. I hope the teachers are gonna actually read it and that they like my story. <br />
+    <br />
+    In the afternoon I went to work. Always feels a bit bad to leave early on a school day. But in this case I’m pretty confident I’m not missing out on anything big. Only a bit of time that could have been used to wrap up my story. <br />
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element"
+    contentStyle={{ background: 'rgb(220,220,220)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(220,220,220)' }}
+    date="23 June 2021"
+    iconStyle={{ background: 'rgb(220,220,220)' }}
+    icon={<FaFile />}
+  >
+    <h3 className="vertical-timeline-element-title">Wrapping up and delivering my portfolio</h3>
+    <h4 className="vertical-timeline-element-subtitle"></h4>
+    <p>
+    Deadline day for my portfolio. Time to wrap up my final 2 chapters and put it the story on the webpage.<br />
+    I also plan to update my timeline with a small table of contents to quickly navigate the timeline.
+    </p>
   </VerticalTimelineElement>
 
 </VerticalTimeline>
